@@ -52,92 +52,92 @@
       {
         "id": "F1",
         "question": "Magkano ang Building Permit fee para sa residential na 150 sq.m.?",
-        "answer": "Batay sa nakasaad sa **Ordinance No. 2024-112** na nag-amyenda sa Section 24 ng Revenue Code, ang Building Permit fee para sa residential structures ay tiered ayon sa floor area. Para sa 150 sq.m., ito ay nasa bracket na **101 to 200 sq.m.**, na may Base Fee na **PHP 2,000.00** at Fire Code Fee na **PHP 300.00**, kaya ang kabuuang bayad ay **PHP 2,300.00**."
+        "answer": "Batay sa nakasaad sa **Ordinance No. 2024-112** na nag-amyenda sa Section 24 ng Ordinance No. 2015-023, ang residential Building Permit fee para sa floor area na **101 to 200 sq.m.** ay may base fee na **PHP 2,000.00** at Fire Code Fee na **PHP 300.00**, kaya ang kabuuang halaga ay **PHP 2,300.00**.\n\n**Ngunit**, ang ibinigay na context ay nagpapakita lamang ng partial na talahanayan — hindi kumpleto ang row para sa 150 sq.m. at walang nakasaad na Electrical Fee para sa kategoryang ito. Kaya ang eksaktong breakdown ay:\n\n- Base Fee: PHP 2,000.00\n- Fire Code Fee: PHP 300.00\n- **Total (base + fire code): PHP 2,300.00**\n\nKung may karagdagang Electrical Fee, wala pong nakasaad sa available documents para sa 150 sq.m. na residential."
       },
       {
         "id": "F2",
         "question": "Magkano ang Barangay Clearance para sa bagong business permit?",
-        "answer": "Ang fee para sa Barangay Clearance para sa bagong business permit ay **PHP 150.00**, ayon sa nakasaad sa [naga_revenue_code]."
+        "answer": "Ang fee para sa Barangay Clearance para sa bagong business permit ay **PHP 150.00**. Ito ay nakasaad sa [naga_revenue_code] na may effective date na 2015-07-01 at huling binago ng Ordinance No. 2018-056 (mula PHP 100.00 naging PHP 150.00, effective 2018-04-15). Ang issuing office ay ang Office of the Punong Barangay, respective barangay hall."
       },
       {
         "id": "F3",
         "question": "Magkano ang Sanitary Permit fee para sa restaurant?",
-        "answer": "Batay sa nakasaad sa **Ordinance No. 2022-089** at sa **Section 58 ng Revenue Code**, ang Sanitary Permit fee para sa restaurant (food service establishment) ay **PHP 300.00**."
+        "answer": "Ayon po sa nakasaad sa ating mga dokumento, ang Sanitary Permit fee para sa restaurant ay **PHP 300.00**. Ito ay base sa Ordinance No. 2022-089 na nag-amyenda sa Section 58 ng Revenue Code, na nagtaas ng fee mula sa dating PHP 200.00."
       },
       {
         "id": "F4",
         "question": "Magkano ang franchise fee ng tricycle?",
-        "answer": "Ang annual franchise fee para sa Motorized Tricycle Operator's Permit (MTOP) ay **Five Hundred Pesos (PHP 500.00)**, payable sa City Treasurer's Office upon application at sa bawat annual renewal."
+        "answer": "Ang annual franchise fee para sa Motorized Tricycle Operator's Permit (MTOP) ay **Five Hundred Pesos (PHP 500.00)**. Ito ay babayaran sa City Treasurer's Office sa oras ng aplikasyon at sa bawat taunang renewal."
       },
       {
         "id": "F5",
         "question": "Lahat ng fees na nakalista para sa Tricycle Franchise, magkano total?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga sumusunod na fees ang nakalista para sa Tricycle Franchise:\n\n1. **Franchise Fee (MTOP):** PHP 500.00 kada taon (Section 6).\n2. **Barangay Clearance Fee:** PHP 50.00 (mula sa [naga_revenue_code] table, para sa \"Tricycle Franchise\").\n\nKabuuang halaga: **PHP 550.00**.\n\nTandaan: Ang ibang requirements tulad ng NBI Clearance, Police Clearance, Drug Test Result, at Medical Certificate ay may kanya-kanyang fees, ngunit **walang nakasaad na halaga** ang mga ito sa ibinigay na dokumento."
+        "answer": "Base sa ibinigay na konteksto, ang mga sumusunod na fees ang nakalista para sa Tricycle Franchise:\n\n1. **Franchise Fee (MTOP)** — PHP 500.00 kada taon (Section 6, Article II)\n2. **Barangay Clearance** — PHP 50.00 (mula sa naga_revenue_code, para sa Tricycle Franchise)\n\n**Kabuuang total: PHP 550.00**\n\nAng iba pang requirements tulad ng NBI Clearance, Police Clearance, Drug Test Result, at Medical Certificate ay walang nakasaad na halaga sa ibinigay na dokumento."
       },
       {
         "id": "F6",
         "question": "Magkano ang Zoning Clearance fee?",
-        "answer": "Ang Zoning Clearance fee ay **PHP 200.00** ayon sa nakasaad sa *naga_zoning_ordinance*."
+        "answer": "Ang fee para sa Zoning/Locational Clearance ay **PHP 200.00**. Ito ay nakasaad sa [naga_zoning_ordinance] na inisyu ng City Planning and Development Office (CPDO)."
       },
       {
         "id": "M1",
         "question": "Kung mag-aapply ako ng Building Permit, anong mga clearance ang kailangan ko muna kunin, at magkano lahat?",
-        "answer": "Batay sa ibinigay na konteksto, para makakuha ng Building Permit, kailangan mo munang kumuha ng **Zoning Clearance o Locational Clearance** mula sa **City Planning and Development Office (CPDO)**. Ito ay ayon sa **Section 28** ng Zoning Ordinance.\n\nTungkol naman sa mga bayarin:\n\n1.  **Zoning Clearance:** Wala pong nakasaad na halaga para sa Zoning Clearance sa ibinigay na dokumento.\n2.  **Building Permit Fee:** Para sa residential na istruktura hanggang 100 sq.m., ang kasalukuyang base fee ay **PHP 2,500.00** ayon sa **Ordinance No. 2024-112** (effective 2024-07-01). May mga karagdagang line items tulad ng Fire Code Fee at Electrical Fee, ngunit hindi nakasaad ang eksaktong halaga ng mga ito sa konteksto.\n\n**Konklusyon:**\nKailangan mo munang kumuha ng Zoning Clearance (walang nakasaad na bayad sa dokumento) at magbayad ng **PHP 2,500.00** para sa Building Permit fee (base rate para sa residential na 100 sq.m.), bukod pa sa iba pang fees na hindi nakasaad ang halaga."
+        "answer": "Batay sa ibinigay na konteksto, para makakuha ng Building Permit, kailangan mo munang kumuha ng **Zoning Clearance o Locational Clearance** mula sa **City Planning and Development Office (CPDO)**. Ito ay ayon sa **Section 28** ng Zoning Clearance Requirements.\n\nTungkol naman sa kabuuang halaga, **hindi po kumpleto ang impormasyon** sa available documents. Ang alam ko lang ay ang sumusunod:\n\n- **Barangay Clearance** para sa Building Permit ay **PHP 50.00** (ayon sa table ng Barangay Clearance fees).\n- Ang **Building Permit fee** para sa residential na hanggang 100 sq.m. ay **PHP 2,500.00** (ayon sa Ordinance No. 2024-112).\n\n**Wala pong nakasaad sa available documents** tungkol sa eksaktong halaga ng Zoning Clearance fee, o kung may iba pang clearance na kailangan. Kaya hindi po matukoy ang kabuuang halaga ng lahat ng clearance na kailangan."
       },
       {
         "id": "M2",
         "question": "Ano requirements ng Tricycle Franchise at saang opisina mag-aapply?",
-        "answer": "Batay sa ibinigay na dokumento, narito ang mga requirements at opisina para sa Tricycle Franchise (MTOP):\n\n**Mga Requirement:**\n1. Duly accomplished MTOP Application Form (mula sa CTTMO)\n2. Certificate of TODA Membership\n3. LTO Certificate of Registration (OR/CR ng tricycle)\n4. LTO Driver's License (Professional, may restriction code para sa tricycle)\n5. Barangay Clearance (mula sa Punong Barangay, fee: PHP 50.00)\n6. NBI Clearance (valid within 6 months)\n7. Police Clearance (mula sa Naga City Police Office)\n8. Drug Test Result (mula sa DOH-accredited center, valid 1 year)\n9. Medical Certificate (mula sa City Health Office)\n10. Two (2) 2x2 ID photos (recent, white background)\n11. Proof of Franchise Fee Payment (PHP 500.00 per year)\n\n**Saan mag-aapply:**\nAng MTOP ay inisyu ng **City Transportation and Traffic Management Office (CTTMO)** , sa koordinasyon ng **Naga City Cooperatives Development Office (NCCDO)**.\n\nAddress ng CTTMO: City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City.\nContact: (054) 205-2980 local 1045\n\n**Processing time:** 5 working days mula sa submission ng kumpletong aplikasyon."
+        "answer": "Batay sa ibinigay na dokumento, narito ang mga requirements at opisina para sa Tricycle Franchise (MTOP):\n\n**Mga Requirements:**\n1. Duly accomplished MTOP Application Form (mula sa CTTMO)\n2. Certificate of TODA Membership\n3. LTO Certificate of Registration (OR/CR ng tricycle)\n4. LTO Driver's License (Professional, may restriction code para sa tricycle)\n5. Barangay Clearance (mula sa Punong Barangay, fee: PHP 50.00)\n6. NBI Clearance (valid, huling 6 na buwan)\n7. Police Clearance (mula sa Naga City Police Office)\n8. Drug Test Result (mula sa DOH-accredited center, valid 1 taon)\n9. Medical Certificate (mula sa City Health Office)\n10. Dalawang (2) 2x2 ID photos (recent, white background)\n11. Proof of Franchise Fee Payment (PHP 500.00 kada taon)\n\n**Saan mag-aapply:**\nAng MTOP ay inisyu ng **City Transportation and Traffic Management Office (CTTMO)** sa pakikipag-ugnayan sa **Naga City Cooperatives Development Office (NCCDO)**. Address ng CTTMO: City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City. Kontak: (054) 205-2980 local 1045.\n\n**Processing time:** Limang (5) working days mula sa submission ng kumpletong aplikasyon."
       },
       {
         "id": "M3",
         "question": "Kung kukuha ako ng Building Permit, kailangan ko ba ng Barangay Clearance? Kung oo, magkano?",
-        "answer": "Batay sa ibinigay na konteksto, **walang nakasaad** na kailangan ng Barangay Clearance para sa pagkuha ng Building Permit. Ang nakasaad lamang ay kailangan ng **Zoning Clearance o Locational Clearance** mula sa City Planning and Development Office (CPDO) bago mag-isyu ng Building Permit ang Office of the Building Official.\n\nTungkol naman sa **halaga ng Building Permit**, depende ito sa uri at laki ng istruktura ayon sa mga sumusunod na ordinansa:\n- Para sa **residential na istruktura hanggang 100 sq.m.**, ang kasalukuyang base fee ay **PHP 2,500.00** (ayon sa Ordinance No. 2024-112, epektibo noong 2024-07-01).\n- May nakasaad din na dating PHP 1,800.00 (Ordinance No. 2015-023) at PHP 2,000.00 (Ordinance No. 2018-045) para sa residential, ngunit ang pinakabago ay PHP 2,500.00.\n\n**Wala pong nakasaad sa available documents tungkol sa eksaktong fee para sa commercial o industrial building permit**, maliban sa nabanggit na may \"separate rate tables\" ang Ordinance No. 2024-112 para sa mga kategoryang ito."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa kung kailangan ng Barangay Clearance para sa Building Permit. Ang nakasaad lang ay kailangan ng Zoning Clearance o Locational Clearance mula sa City Planning and Development Office (CPDO) bago mag-isyu ng Building Permit.\n\nTungkol naman sa fee ng Building Permit, depende ito sa uri at laki ng istraktura. Para sa residential na hanggang 100 sq.m., ang base fee ay **PHP 2,500.00** ayon sa Ordinance No. 2024-112 (effective 2024-07-01)."
       },
       {
         "id": "M4",
         "question": "Anong ordinansa ang nagtakda ng kasalukuyang Building Permit fee, at ano ang pinalitan nito?",
-        "answer": "Ang kasalukuyang Building Permit fee ay itinakda ng **Ordinance No. 2024-112**, na nag-amyenda sa naunang **Ordinance No. 2018-045**. Ayon sa context, ang Ordinance No. 2024-112 ang nagtakda ng residential base fee na **PHP 2,500.00** para sa hanggang 100 sq.m., at nagdagdag ng Fire Code Fee at Electrical Fee line items. Pinalitan nito ang dating rate na **PHP 2,000.00** para sa residential base fee (hanggang 100 sq.m.) na nasa ilalim ng Ordinance No. 2018-045."
+        "answer": "Ang kasalukuyang Building Permit fee ay itinakda ng **Ordinance No. 2024-112** (Effective: 2024-07-01). Pinalitan nito ang naunang **Ordinance No. 2018-045** (Effective: 2018-03-01) na nagtakda ng residential base fee na PHP 2,000.00 para sa hanggang 100 sq.m. Sa ilalim ng bagong ordinansa, ang residential base fee ay itinaas sa **PHP 2,500.00** para sa hanggang 100 sq.m., at nagdagdag ito ng Fire Code Fee at Electrical Fee line items."
       },
       {
         "id": "C1",
         "question": "Bakit kailangan ng Zoning Clearance bago mag-Building Permit?",
-        "answer": "Batay sa nakasaad sa **naga_zoning_ordinance**, kailangan ng Zoning Clearance bago mag-Building Permit dahil tinitiyak nito na:\n\n1. Ang iminungkahing istraktura ay naaayon sa **land use designation** ng property.\n2. Ang gagamiting **use** ay **permitted** o **conditionally permitted** sa zone.\n3. Ang **setback, height, at floor-area-ratio requirements** ay nasusunod.\n4. Ang development ay **consistent** sa **Comprehensive Land Use Plan (CLUP)**.\n\nIto ay ayon sa **Section 28** ng nasabing ordinansa: *\"No Building Permit shall be issued by the Office of the Building Official without a prior Zoning Clearance or Locational Clearance issued by the City Planning and Development Office (CPDO).\"* Ang fee para sa Zoning Clearance ay **PHP 200.00**, at ang processing time ay **3 working days** sa CPDO, Rm. 208, City Hall Complex."
+        "answer": "Batay sa nakasaad sa **Article VI: Zoning Clearance Requirements** ng **naga_zoning_ordinance**, kailangan ng Zoning Clearance bago mag-Building Permit dahil **walang Building Permit ang maaaring ilabas ng Office of the Building Official nang walang prior Zoning Clearance o Locational Clearance na inisyu ng City Planning and Development Office (CPDO)**.\n\nGinagarantiya ng Zoning Clearance na:\n1. Ang iminungkahing istraktura ay umaayon sa itinalagang paggamit ng lupa (land use designation) ng property.\n2. Ang gamit ay pinapayagan o may kundisyong pinapayagan sa nasabing zone.\n3. Natutugunan ang mga requirement sa setback, height, at floor-area-ratio.\n4. Ang development ay naaayon sa Comprehensive Land Use Plan (CLUP).\n\nAng fee para sa Zoning/Locational Clearance ay **PHP 200.00**, at ang processing time ay **3 working days** sa City Planning and Development Office (CPDO), Rm. 208, City Hall Complex."
       },
       {
         "id": "C2",
         "question": "Ano ang purpose ng amendment ng Building Permit fees mula 2015 hanggang 2024?",
-        "answer": "Batay sa ibinigay na konteksto, ang layunin ng pag-amyenda sa Building Permit fees mula 2015 hanggang 2024 ay **\"to update the schedule of building permit fees to reflect current construction costs and to separately account for Fire Code and Electrical inspection fees\"** (mula sa Preamble ng Ordinance No. 2024-112, epektibo noong 2024-07-01).\n\nNarito ang buod ng mga pagbabago batay sa konteksto:\n\n- **Ordinance No. 2015-023:** Unang nagtakda ng PHP 1,800.00 per application para sa residential structures hanggang 100 sq.m.\n- **Ordinance No. 2018-045 (Epektibo: 2018-03-01):** Itinaas ang residential base fee sa PHP 2,000.00 para sa hanggang 100 sq.m. at nag-introduce ng tiered pricing batay sa floor area.\n- **Ordinance No. 2024-112 (Epektibo: 2024-07-01):** Kasalukuyang schedule. Itinaas ang residential base fee sa PHP 2,500.00 para sa hanggang 100 sq.m., at nagdagdag ng Fire Code Fee at Electrical Fee line items. Pinalawak din ito sa commercial at industrial categories na may hiwalay na rate tables.\n\n**Tandaan:** Walang nakasaad sa ibinigay na konteksto tungkol sa anumang iba pang purpose ng amendment bukod sa nabanggit na update ng fees at pagdagdag ng inspection fees."
+        "answer": "Batay sa nakasaad sa mga dokumento, ang layunin ng pag-amyenda sa Building Permit fees mula 2015 hanggang 2024 ay **\"to update the schedule of building permit fees to reflect current construction costs and to separately account for Fire Code and Electrical inspection fees\"** (Ordinance No. 2024-112, Preamble, epektibo noong 2024-07-01).\n\nNarito ang buod ng mga pagbabago ayon sa konteksto:\n\n- **Ordinance No. 2015-023:** Unang nagtakda ng PHP 1,800.00 para sa residential structures na hanggang 100 sq.m.\n- **Ordinance No. 2018-045 (Epektibo: 2018-03-01):** Itinaas ang base fee sa PHP 2,000.00 para sa hanggang 100 sq.m. at ipinakilala ang tiered pricing batay sa floor area.\n- **Ordinance No. 2024-112 (Epektibo: 2024-07-01):** Ang kasalukuyang schedule. Itinaas ang residential base fee sa PHP 2,500.00 para sa hanggang 100 sq.m., at nagdagdag ng Fire Code Fee at Electrical Fee line items. Pinalawak din ito sa commercial at industrial categories na may hiwalay na rate tables.\n\n**Tandaan:** Walang nakasaad sa ibinigay na konteksto tungkol sa iba pang posibleng dahilan ng pag-amyenda bukod sa nabanggit sa itaas."
       },
       {
         "id": "C3",
         "question": "Bakit may iba't ibang zone classifications sa Naga City?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa dahilan kung bakit may iba't ibang zone classifications sa Naga City. Ang ibinigay na context ay naglilista lamang ng mga permitted at prohibited uses para sa Residential (R-1), Commercial (C-2), at Industrial (I-1) zones, ngunit hindi nito ipinapaliwanag ang rason o layunin ng pagkakaroon ng iba't ibang klasipikasyong ito."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa dahilan kung bakit may iba't ibang zone classifications sa Naga City. Ang ibinigay na konteksto ay naglalaman lamang ng mga listahan ng permitted, prohibited, at conditional uses para sa Residential (R-1), Commercial (C-2), at Industrial (I-1) zones, pati na rin ang requirements para sa zoning clearance. Walang paliwanag o rationale kung bakit ginawa ang mga klasipikasyong ito."
       },
       {
         "id": "C4",
         "question": "Bakit may parusa ang hindi pag-post ng Mayor's Permit?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa parusa para sa hindi pag-post ng Mayor's Permit. Ang ibinigay na konteksto ay tungkol lamang sa mga fee para sa Barangay Clearance, Sanitary Permit, Building Permit, at Tricycle Franchise, at walang binabanggit na anumang parusa o penalty para sa hindi pag-post ng Mayor's Permit."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa parusa para sa hindi pag-post ng Mayor's Permit. Ang ibinigay na konteksto ay tungkol lamang sa mga fee para sa Barangay Clearance, Sanitary Permit, Building Permit, at Tricycle Franchise, at walang binabanggit na anumang parusa o penalty."
       },
       {
         "id": "T1",
         "question": "Magkano ang Building Permit fee noong 2016?",
-        "answer": "Noong 2016, ang Building Permit fee para sa residential structures na hanggang 100 sq.m. ay **PHP 1,800.00** bawat aplikasyon. Ito ay batay sa **Ordinance No. 2015-023** na may flat rate na PHP 1,800.00 para sa residential structures na hanggang 200 sq.m., at epektibo noong 2015-07-01."
+        "answer": "Noong 2016, ang Building Permit fee para sa residential structures na hanggang 100 sq.m. ay **PHP 1,800.00** bawat aplikasyon. Ito ay batay sa unang schedule ng Ordinance No. 2015-023, na may across-the-board rate na PHP 1,800.00 para sa residential structures hanggang 100 sq.m., at epektibo noong 2015-07-01."
       },
       {
         "id": "T2",
         "question": "Magkano ang Building Permit fee noong 2020?",
-        "answer": "Noong 2020, ang Building Permit fee para sa residential structures na hanggang 100 sq.m. ay **PHP 2,000.00** base fee, ayon sa **Ordinance No. 2018-045** na epektibo noong 2018-03-01. Wala pong nakasaad sa available documents kung may iba pang fees (tulad ng Fire Code o Electrical Fee) noong 2020, dahil ang mga ito ay idinagdag lamang sa **Ordinance No. 2024-112** na epektibo noong 2024-07-01."
+        "answer": "Noong 2020, ang Building Permit fee para sa residential structures na hanggang 100 sq.m. ay **PHP 2,000.00** base fee. Ito ay batay sa **Ordinance No. 2018-045**, na epektibo noong 2018-03-01, na nagtakda ng residential base fee na PHP 2,000.00 para sa floor area na hanggang 100 sq.m. Wala pong nakasaad sa available documents tungkol sa Fire Code Fee o Electrical Fee para sa taong 2020, dahil ang mga ito ay idinagdag lamang sa ilalim ng **Ordinance No. 2024-112** na epektibo noong 2024-07-01."
       },
       {
         "id": "T3",
         "question": "Kailan nagbago ang Building Permit fee mula flat rate papuntang tiered?",
-        "answer": "Base sa ibinigay na konteksto, ang pagbabago ng Building Permit fee mula flat rate papuntang tiered ay naganap noong **2018-03-01** sa bisa ng **Ordinance No. 2018-045**. Sa ilalim ng ordinance na ito, ang dating flat rate na PHP 1,800.00 para sa residential structures hanggang 100 sq.m. ay pinalitan ng tiered pricing batay sa floor area, na may base fee na PHP 2,000.00 para sa up to 100 sq.m. at PHP 3,500.00 para sa 101 to 200 sq.m., kasama ang Fire Code Fee na PHP 300.00."
+        "answer": "Batay sa ibinigay na konteksto, ang pagbabago ng Building Permit fee mula flat rate papuntang tiered pricing ay naganap noong **March 1, 2018**, sa bisa ng **Ordinance No. 2018-045**. Ang ordinansang ito ang nag-amyenda sa dating flat rate na PHP 1,800.00 (para sa residential structures up to 100 sq.m.) at nagpatupad ng tiered pricing batay sa floor area, na may base fee na PHP 2,000.00 para sa residential structures na hanggang 100 sq.m."
       },
       {
         "id": "T4",
         "question": "Ang Sanitary Permit fee para sa restaurant noong 2021 — magkano? At ngayon?",
-        "answer": "Noong 2021, ang Sanitary Permit fee para sa restaurant ay **PHP 200.00**. Ito ay batay sa Section 58 ng Revenue Code bago ito amyendahan.\n\nNgayon, ang fee ay **PHP 300.00** para sa food service establishments (kabilang ang restaurant), ayon sa Ordinance No. 2022-089 na nag-amyenda sa Section 58, epektibo noong 2022-06-01."
+        "answer": "Noong 2021, ang Sanitary Permit fee para sa restaurant ay **PHP 200.00**. Ito ay batay sa Section 58 ng Revenue Code bago ito amyendahan.\n\nNgayon, ang fee ay **PHP 300.00** para sa food service establishments (kabilang ang restaurant), ayon sa Ordinance No. 2022-089 na nag-amyenda sa Section 58 at nagtaas ng fee mula PHP 200.00 tungong PHP 300.00, epektibo noong 2022-06-01."
       },
       {
         "id": "S1",
@@ -147,27 +147,27 @@
       {
         "id": "S2",
         "question": "magkano bp fee 100 sqm",
-        "answer": "Batay sa nakasaad sa **Ordinance No. 2024-112** (kasalukuyang schedule), ang Building Permit fee para sa **Residential (R-1) na istruktura na hanggang 100 sq.m.** ay:\n\n- **Base Fee:** PHP 2,500.00\n- **Fire Code Fee:** PHP 300.00\n- **Electrical Fee:** PHP 250.00\n- **Kabuuang Total:** **PHP 3,050.00**\n\nIto ay makikita sa [naga_revenue_code] sa ilalim ng \"Residential (R-1) | Up to 100 sq.m.\" row."
+        "answer": "Batay sa ibinigay na konteksto, ang Building Permit fee para sa residential na 100 sq.m. ay **PHP 2,500.00** bilang base fee. Kapag isinama ang Fire Code Fee na PHP 300.00 at Electrical Fee na PHP 250.00, ang kabuuang bayarin ay **PHP 3,050.00**.\n\nIto ay makikita sa [naga_revenue_code] sa ilalim ng \"Residential (R-1) | Up to 100 sq.m.\""
       },
       {
         "id": "S3",
         "question": "pano kumuha ng mayor's permit",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa proseso kung paano kumuha ng mayor's permit. Ang impormasyon sa ibinigay na context ay tungkol lamang sa Barangay Clearance, Sanitary Permit, at Building Permit fees."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa proseso kung paano kumuha ng mayor's permit. Ang impormasyon sa ibinigay na konteksto ay tungkol lamang sa Barangay Clearance, Sanitary Permit, at Building Permit fees."
       },
       {
         "id": "S4",
         "question": "kelangan ba ng sanitary permit ang karinderya?",
-        "answer": "Oo, kailangan ng sanitary permit ang karinderya. Ayon sa nakasaad sa Revenue Code ng Naga City, ang mga business establishments na humahawak ng pagkain (food handling) ay kinakailangang kumuha ng Sanitary Permit base sa PD 856. Ang karinderya ay kabilang sa \"food service establishments\" na binanggit sa Ordinance No. 2022-089, kung saan ang fee para sa sanitary permit ay itinaas mula PHP 200.00 patungong PHP 300.00, epektibo noong 2022-06-01. Ang processing time ay 2 working days mula sa pag-submit ng kumpletong requirements."
+        "answer": "Oo, kailangan ng sanitary permit ang karinderya. Ayon sa nakasaad sa Revenue Code ng Naga City, ang mga food service establishments tulad ng karinderya ay kinakailangang kumuha ng sanitary permit sa ilalim ng Presidential Decree No. 856. Ang fee para sa sanitary permit ng karinderya ay PHP 300.00, base sa Ordinance No. 2022-089 na nag-amyenda sa dating PHP 200.00. Ang processing time ay 2 working days mula sa pag-submit ng kumpletong requirements."
       },
       {
         "id": "S5",
         "question": "saan kukuha ng prangkisa ng trike",
-        "answer": "Batay sa ibinigay na dokumento, ang Motorized Tricycle Operator's Permit (MTOP) o prangkisa ng trike ay maaaring makuha sa **City Transportation and Traffic Management Office (CTTMO)** na matatagpuan sa City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City. Maaari rin silang kontakin sa (054) 205-2980 local 1045.\n\nAng annual franchise fee ay **PHP 500.00** at ang processing time ay **limang (5) working days** mula sa petsa ng pagsusumite ng kumpletong requirements."
+        "answer": "Batay sa ibinigay na dokumento, ang Motorized Tricycle Operator's Permit (MTOP) o prangkisa ng tricycle ay **iniisyu ng City Transportation and Traffic Management Office (CTTMO)**. Ang kanilang address ay nasa City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City, at maaaring tawagan sa (054) 205-2980 local 1045.\n\nAng annual franchise fee ay **PHP 500.00**, at ang kumpletong aplikasyon ay **prosesado sa loob ng limang (5) araw ng trabaho**."
       },
       {
         "id": "S6",
         "question": "pwede ba tindahan sa tabi ng bahay",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa pagpapatayo o pagpapatakbo ng tindahan sa tabi ng bahay. Ang mga dokumento ay tumutukoy lamang sa mga bayarin para sa Barangay Clearance, Sanitary Permit, Building Permit, at Tricycle Franchise, ngunit walang impormasyon tungkol sa zoning o kung pinapayagan ang tindahan sa tabi ng residential area."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa pagpapatayo ng tindahan sa tabi ng bahay. Ang mga dokumento ay naglalaman lamang ng impormasyon tungkol sa mga permit fees (tulad ng Barangay Clearance, Sanitary Permit, at Building Permit fees) at mga requirements para sa tricycle franchise, ngunit walang probisyon tungkol sa zoning o lokasyon ng mga tindahan."
       },
       {
         "id": "A1",
@@ -187,64 +187,64 @@
       {
         "id": "A4",
         "question": "Saan magbabayad ng amilyar sa Naga City?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa amilyar (real property tax) sa Naga City. Ang mga dokumentong ibinigay ay tungkol sa building permit fees, zoning ordinance, health permit fees, at tricycle franchise fees — hindi po kasama ang amilyar."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa amilyar (real property tax) sa Naga City. Ang mga dokumentong ibinigay ay tungkol sa building permit fees, zoning ordinance, health permit fees, at tricycle franchise fees. Walang impormasyon tungkol sa amilyar o kung saan ito babayaran."
       },
       {
         "id": "G1",
         "question": "Ano LAHAT ng requirements para sa Building Permit?",
-        "answer": "Pasensya na, pero wala pong nakasaad sa available documents tungkol sa kumpletong listahan ng requirements para sa Building Permit. Ang ibinigay na context ay tungkol lamang sa mga fee schedule at mga ordinance na nag-aamyenda ng mga bayarin, hindi sa mga dokumento o requirements na kailangan isumite para sa aplikasyon ng Building Permit."
+        "answer": "Pasensya na po, ngunit sa ibinigay na konteksto, **walang nakasaad na listahan ng mga requirements** para sa Building Permit. Ang mga dokumento ay tumutukoy lamang sa mga **bayarin** (fees) at mga ordinansa na nag-aamyenda sa mga ito.\n\nKung nais ninyo po ang kumpletong requirements, maaari po kayong dumiretso sa City Engineering Office o sa City Building Official ng Naga City para sa listahan."
       },
       {
         "id": "G2",
         "question": "Ano ang mga zone classifications na nakalista sa zoning documents?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga zone classifications na nakalista ay:\n\n1. **Residential Zones (R-1)** – Artikulo III, Seksyon 8\n2. **Commercial Zones (C-2)** – Artikulo III, Seksyon 9\n3. **Industrial Zones (I-1)** – Artikulo III, Seksyon 10\n\nIto lamang ang mga zone classifications na makikita sa excerpts ng Comprehensive Zoning Ordinance of Naga City (Ordinance No. 2016-031)."
+        "answer": "Batay sa ibinigay na konteksto, ang mga zone classifications na nakalista ay:\n\n1. **Residential Zones (R-1)** – Artikulo III, Seksyon 8\n2. **Commercial Zones (C-2)** – Artikulo III, Seksyon 9\n3. **Industrial Zones (I-1)** – Artikulo III, Seksyon 10\n\nIto lamang po ang mga zone classifications na makikita sa excerpts mula sa Comprehensive Zoning Ordinance of Naga City (Ordinance No. 2016-031)."
       },
       {
         "id": "G3",
         "question": "Ano LAHAT ng penalties ng Tricycle Franchise violations?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga penalty para sa Tricycle Franchise violations ay ang mga sumusunod:\n\n**Para sa pagpapatakbo ng tricycle-for-hire nang walang valid na MTOP (Motorized Tricycle Operator's Permit):**\n\n| Paglabag | Parusa |\n|---|---|\n| Unang Paglabag | Multang PHP 1,000.00 at pagkumpiska ng unit sa loob ng 3 araw |\n| Ikalawang Paglabag | Multang PHP 2,500.00 at pagkumpiska ng unit sa loob ng 7 araw |\n| Ikatlong Paglabag | Multang PHP 5,000.00 at pagbawi ng eligibility para sa prangkisa sa loob ng 1 taon |\n\nIto lamang po ang nakasaad na penalties sa ibinigay na dokumento."
+        "answer": "Batay sa ibinigay na konteksto, ang mga sumusunod lamang ang penalties para sa Tricycle Franchise violations:\n\n**Para sa pagpapatakbo ng tricycle-for-hire nang walang valid na MTOP (Motorized Tricycle Operator's Permit):**\n\n| Paglabag | Parusa |\n|---|---|\n| First Offense | Multang PHP 1,000.00 at impoundment ng unit sa loob ng 3 araw |\n| Second Offense | Multang PHP 2,500.00 at impoundment ng unit sa loob ng 7 araw |\n| Third Offense | Multang PHP 5,000.00 at revocation ng franchise eligibility sa loob ng 1 taon |\n\nWala pong nakasaad sa available documents tungkol sa iba pang penalties para sa ibang uri ng Tricycle Franchise violations."
       },
       {
         "id": "G4",
         "question": "Ano LAHAT ng ordinansa na may kinalaman sa Building Permit fees?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga ordinansa na may kinalaman sa Building Permit fees ay ang mga sumusunod:\n\n1. **Ordinance No. 2015-023** (Revenue Code of Naga City) – Ito ang orihinal na nagtakda ng building permit fee schedule na may across-the-board rate na **PHP 1,800.00** para sa residential structures hanggang 100 sq.m.\n2. **Ordinance No. 2018-045** (Effective: 2018-03-01) – Nag-amyenda sa naunang ordinansa. Itinaas ang residential base fee sa **PHP 2,000.00** para sa hanggang 100 sq.m. at nag-introduce ng tiered pricing batay sa floor area.\n3. **Ordinance No. 2024-112** (Effective: 2024-07-01) – Kasalukuyang schedule. Itinaas ang residential base fee sa **PHP 2,500.00** para sa hanggang 100 sq.m. Nagdagdag ng **Fire Code Fee** (PHP 300.00 para sa lahat ng residential applications) at **Electrical Fee** (PHP 250.00 para sa structures up to 200 sq.m., PHP 400.00 para sa over 200 sq.m.). Pinalawak ito sa commercial at industrial categories na may hiwalay na rate tables.\n\nTandaan: Ang Section 4 ng Ordinance No. 2024-112 ay nagsasaad na ang Fire Code Fee na itinatag sa ilalim ng Ordinance No. 2018-045 ay mananatili sa PHP 300.00 para sa lahat ng residential applications, at ang Ordinance No. 2024-112 ay pumapalit sa Ordinance No. 2018-045 sa kabuuan nito patungkol sa residential Building Permit fees."
+        "answer": "Batay sa ibinigay na konteksto, ang mga ordinansa na may kinalaman sa Building Permit fees ay:\n\n1. **Ordinance No. 2015-023** – Ang orihinal na nagtakda ng building permit fee schedule na may across-the-board rate na **PHP 1,800.00** para sa residential structures hanggang 100 sq.m.\n2. **Ordinance No. 2018-045** (Epektibo: 2018-03-01) – Nagtaas ng residential base fee sa **PHP 2,000.00** para sa hanggang 100 sq.m. at nag-introduce ng tiered pricing batay sa floor area.\n3. **Ordinance No. 2024-112** (Epektibo: 2024-07-01) – Kasalukuyang schedule. Nagtaas ng residential base fee sa **PHP 2,500.00** para sa hanggang 100 sq.m. Nagdagdag ng **Fire Code Fee (PHP 300.00)** at **Electrical Fee (PHP 250.00 para sa hanggang 200 sq.m., PHP 400.00 para sa higit 200 sq.m.)**. Pinalawak sa commercial at industrial categories.\n\nWala pong nakasaad sa available documents tungkol sa iba pang ordinansa na nag-amyenda sa building permit fees bukod sa nabanggit."
       },
       {
         "id": "H1",
         "question": "Ano ang processing time ng Tricycle Franchise?",
-        "answer": "Batay sa ibinigay na konteksto, ang processing time para sa Motorized Tricycle Operator's Permit (MTOP) ay **limang (5) working days** mula sa petsa ng pagsusumite ng kumpletong aplikasyon. Ito ay nakasaad sa **Section 8. Processing Time** ng City Ordinance No. 2019-072."
+        "answer": "Batay sa ibinigay na konteksto, ang processing time para sa Motorized Tricycle Operator's Permit (MTOP) o Tricycle Franchise ay **limang (5) working days** mula sa petsa ng pagsusumite ng kumpletong aplikasyon. Ito ay nakasaad sa **Section 8. Processing Time** ng City Ordinance No. 2019-072."
       },
       {
         "id": "H2",
         "question": "Saan ini-issue ang Tricycle Franchise?",
-        "answer": "Batay sa ibinigay na konteksto, ang **Barangay Clearance** para sa Tricycle Franchise ay ina-issue sa **Office of the Punong Barangay, respective barangay hall**. Ang fee para dito ay **PHP 50.00**."
+        "answer": "Batay sa ibinigay na konteksto, ang **Barangay Clearance para sa Tricycle Franchise** ay inisyu ng **Office of the Punong Barangay** sa kani-kanilang barangay hall, at may halagang **PHP 50.00**."
       },
       {
         "id": "H3",
         "question": "Ilang sqm ang maximum para sa sari-sari store na pwede sa R-1 zone?",
-        "answer": "Batay sa nakasaad sa **Section 8.3 Conditional Uses** ng Naga Zoning Ordinance, ang maximum floor area para sa sari-sari store na pinapayagan sa R-1 zone ay **15 sq.m.**"
+        "answer": "Batay sa **Section 8.3 Conditional Uses** ng Naga Zoning Ordinance, ang maximum floor area para sa sari-sari store na pinapayagan sa R-1 zone ay **15 square meters (sq.m.)**."
       },
       {
         "id": "H4",
         "question": "Magkano ang Fire Code Fee sa Building Permit (current)?",
-        "answer": "Sa kasalukuyan, ang Fire Code Fee para sa Building Permit ay **PHP 300.00** para sa lahat ng residential applications, ayon sa **Section 3** ng pinakabagong amendment (Ordinance No. 2024-112, effective 2024-07-01)."
+        "answer": "Sa kasalukuyan, ang Fire Code Fee para sa Building Permit ay **PHP 300.00** para sa lahat ng residential applications, ayon sa **Ordinance No. 2024-112** (Effective: 2024-07-01) at sa amendment chain na nagsasaad na ang Fire Code Fee ay nananatili sa halagang ito."
       }
     ],
     "Pipeline C": [
       {
         "id": "F1",
         "question": "Magkano ang Building Permit fee para sa residential na 150 sq.m.?",
-        "answer": "Ang Building Permit fee para sa residential na 150 sq.m. ay **PHP 4,550.00**.\n\nIto ay batay sa sumusunod na breakdown mula sa ibinigay na konteksto:\n- Base fee para sa 101-200sqm: **PHP 4,000.00**\n- Fire Code Fee (≤200sqm): **PHP 300.00**\n- Electrical Fee (≤200sqm): **PHP 250.00**\n\nKabuuan: PHP 4,000 + PHP 300 + PHP 250 = **PHP 4,550.00** (Zettel [FEE_STRUCTURE]: Building Permit residential tiers)."
+        "answer": "Para sa residential na 150 sq.m., ang Building Permit fee ay **PHP 4,000.00** base fee. Ito ay nasa ilalim ng tier na \"BP Residential 101-200sqm Base\" na may halagang PHP 4,000.00, ayon sa nakasaad sa context."
       },
       {
         "id": "F2",
         "question": "Magkano ang Barangay Clearance para sa bagong business permit?",
-        "answer": "Ang Barangay Clearance para sa bagong business permit ay nagkakahalaga ng **PHP 150.00**, ayon sa nakasaad sa fee structure (effective noong 2015-07-01)."
+        "answer": "Ang Barangay Clearance para sa bagong business permit ay nagkakahalaga ng **PHP 150.00**, ayon sa nakasaad sa fee structure na epektibo noong 2015-07-01."
       },
       {
         "id": "F3",
         "question": "Magkano ang Sanitary Permit fee para sa restaurant?",
-        "answer": "Ang Sanitary Permit fee para sa restaurant ay **PHP 300.00**, ayon sa nakasaad sa ilalim ng \"Sanitary Permit - Food Service (Current)\" na may effective date na 2022-06-01."
+        "answer": "Ang Sanitary Permit fee para sa restaurant ay **PHP 300.00** batay sa nakasaad sa \"Sanitary Permit - Food Service (Current)\" na may effective date na 2022-06-01."
       },
       {
         "id": "F4",
@@ -254,42 +254,42 @@
       {
         "id": "F5",
         "question": "Lahat ng fees na nakalista para sa Tricycle Franchise, magkano total?",
-        "answer": "Base sa ibinigay na konteksto, ang mga sumusunod na fees ay nakalista para sa Tricycle Franchise (MTOP):\n\n1. **Barangay Clearance - Tricycle Franchise** — PHP 50.00 (Effective: 2015-07-01)  \n2. **Tricycle Franchise Fee** — PHP 500.00 (Effective: 2019-12-01)\n\n**Kabuuang halaga:** PHP 50.00 + PHP 500.00 = **PHP 550.00**"
+        "answer": "Base sa ibinigay na konteksto, ang mga fees na nakalista para sa Tricycle Franchise ay:\n\n1. **Barangay Clearance - Tricycle Franchise** — PHP 50.00 (Effective: 2015-07-01)  \n2. **Tricycle Franchise Fee** — PHP 500.00 (Effective: 2019-12-01)\n\n**Kabuuang halaga:** PHP 50.00 + PHP 500.00 = **PHP 550.00**"
       },
       {
         "id": "F6",
         "question": "Magkano ang Zoning Clearance fee?",
-        "answer": "Ang Zoning Clearance Fee ay **PHP 200.00**, ayon sa nakasaad sa ibinigay na konteksto."
+        "answer": "Ang Zoning Clearance fee ay **PHP 200.00**, ayon sa nakasaad sa ibinigay na konteksto."
       },
       {
         "id": "M1",
         "question": "Kung mag-aapply ako ng Building Permit, anong mga clearance ang kailangan ko muna kunin, at magkano lahat?",
-        "answer": "Batay sa ibinigay na dokumento, para mag-apply ng Building Permit, kailangan mo munang kumuha ng dalawang clearance:\n\n1. **Zoning Clearance Requirement** (kinakailangan)\n2. **Barangay Clearance - Building Permit** (kinakailangan)\n\nTungkol naman sa kabuuang halaga, depende ito sa laki ng iyong residential building:\n\n- **≤100 sqm**: PHP 2,500 (base) + PHP 300 (fire code) + PHP 250 (electrical) = **PHP 3,050 total**\n- **101-200 sqm**: PHP 4,000 (base) + PHP 300 (fire code) + PHP 250 (electrical) = **PHP 4,550 total**\n- **>200 sqm**: PHP 6,000 (base) + PHP 500 (fire code) + PHP 400 (electrical) = **PHP 6,900 total**\n\nAng mga halaga ng mismong Zoning Clearance at Barangay Clearance ay **hindi nakasaad** sa ibinigay na context. Kaya hindi ko masasabi ang eksaktong kabuuang halaga kasama ang mga clearance na iyon. Ang nakasaad lamang ay ang building permit fee, fire code fee, at electrical fee."
+        "answer": "Batay sa ibinigay na konteksto, para sa aplikasyon ng **Building Permit**, ang kailangan mong clearance ay **Barangay Clearance - Building Permit** na may halagang **PHP 50.00** (Effective: 2015-07-01).  \n\nWala pong nakasaad sa available documents tungkol sa iba pang clearance na kailangan para sa Building Permit bukod dito."
       },
       {
         "id": "M2",
         "question": "Ano requirements ng Tricycle Franchise at saang opisina mag-aapply?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga requirements para sa **Tricycle Franchise (MTOP)** ay ang mga sumusunod:\n\n- MTOP Application Form\n- TODA Membership Certificate\n- LTO Certificate of Registration\n- LTO Driver's License\n- Barangay Clearance - Tricycle\n- NBI Clearance\n- Police Clearance\n- Drug Test Result\n- Medical Certificate\n- 2x2 ID Photos\n- Franchise Fee Payment Proof\n\nAng opisina kung saan mag-aapply ay ang **CTTMO (City Transportation and Traffic Management Office)** na matatagpuan sa **City Hall Complex, Naga City**."
+        "answer": "Ang mga requirements para sa Tricycle Franchise (MTOP) ay:\n- MTOP Application Form\n- TODA Membership Certificate\n- LTO Certificate of Registration\n- LTO Driver's License\n- Barangay Clearance - Tricycle\n- NBI Clearance\n\nAng opisina kung saan mag-aapply ay ang **CTTMO (City Transportation and Traffic Management Office)** na matatagpuan sa City Hall Complex, Naga City."
       },
       {
         "id": "M3",
         "question": "Kung kukuha ako ng Building Permit, kailangan ko ba ng Barangay Clearance? Kung oo, magkano?",
-        "answer": "Oo, kailangan po ng Barangay Clearance para sa Building Permit. Ayon sa nakasaad, ang fee para sa **Barangay Clearance - Building Permit** ay **PHP 50.00**."
+        "answer": "Oo, kailangan po ng Barangay Clearance para sa Building Permit. Ayon sa nakasaad sa ating records, ang fee para sa Barangay Clearance - Building Permit ay **PHP 50.00**."
       },
       {
         "id": "M4",
         "question": "Anong ordinansa ang nagtakda ng kasalukuyang Building Permit fee, at ano ang pinalitan nito?",
-        "answer": "Ang kasalukuyang Building Permit fee ay itinakda ng **Ord 2024-112**. Ayon sa nakasaad sa ZETTEL [FEE_STRUCTURE], pinalitan nito ang dating 2018 tiered fee na PHP 2,000-3,500 kasama ang PHP 300 fire code fee, at bago pa roon, ang 2015 flat rate na PHP 1,800."
+        "answer": "Ang kasalukuyang Building Permit fee ay itinakda ng **Ord 2024-112**. Ayon sa nakasaad sa ZETTEL [FEE_STRUCTURE], pinalitan nito ang dating 2018 tiered fee na PHP 2,000-3,500 + PHP 300 fire fee, at bago pa roon, ang 2015 flat rate na PHP 1,800."
       },
       {
         "id": "C1",
         "question": "Bakit kailangan ng Zoning Clearance bago mag-Building Permit?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa dahilan kung bakit kailangan ng Zoning Clearance bago mag-Building Permit. Ang alam ko lang ayon sa context, ang Zoning Clearance ay isang requirement para sa Building Permit Application, at ito ay inisyu ng CPDO (City Planning and Development Office) na may processing time na 3 working days."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa dahilan kung bakit kailangan ng Zoning Clearance bago mag-Building Permit. Ang alam ko lang ay ang Zoning Clearance ay inisyu ng CPDO (City Planning and Development Office) at ang Building Permit naman ay inisyu ng CTMO / Office of the Building Official, pero hindi po nakadetalye sa konteksto ang rason ng requirement na ito."
       },
       {
         "id": "C2",
         "question": "Ano ang purpose ng amendment ng Building Permit fees mula 2015 hanggang 2024?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa purpose ng amendment ng Building Permit fees mula 2015 hanggang 2024. Ang ibinigay lamang na impormasyon ay ang history ng fee structure: noong 2015 ay flat rate na PHP 1,800, noong 2018 ay naging tiered na PHP 2,000-3,500 kasama ang PHP 300 fire code fee, at noong 2024 ay kasalukuyang PHP 2,500-6,000 kasama ang fire at electrical fees. Hindi po nakadetalye kung bakit ginawa ang mga pagbabagong ito."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa purpose ng amendment ng Building Permit fees mula 2015 hanggang 2024. Ang ibinigay lamang na impormasyon ay ang history ng fee structure: noong 2015 ay flat rate na PHP 1,800, noong 2018 ay naging tiered na PHP 2,000–3,500 kasama ang PHP 300 fire fee, at noong 2024 ay kasalukuyang PHP 2,500–6,000 kasama ang fire at electrical fees. Subalit hindi po nakadetalye kung bakit o ano ang rason ng mga pagbabagong ito."
       },
       {
         "id": "C3",
@@ -304,52 +304,52 @@
       {
         "id": "T1",
         "question": "Magkano ang Building Permit fee noong 2016?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa eksaktong Building Permit fee noong 2016. Ang nabanggit lang sa history ay noong 2015 ay flat rate na PHP 1,800, at noong 2018 ay naging tiered na PHP 2,000-3,500 kasama ang PHP 300 fire code fee. Walang specific na detalye para sa taong 2016."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa eksaktong halaga ng Building Permit fee noong 2016. Ang nakasaad lamang ay ang fee history: noong 2015 ay flat PHP 1,800, at noong 2018 ay may tiered na PHP 2,000–3,500 kasama ang PHP 300 fire code fee. Walang specific na impormasyon para sa taong 2016."
       },
       {
         "id": "T2",
         "question": "Magkano ang Building Permit fee noong 2020?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa eksaktong Building Permit fee noong 2020. Ang nakatala lamang ay ang fee history: noong 2015 ay flat PHP 1,800, noong 2018 ay tiered PHP 2,000-3,500 + PHP 300 fire, at noong 2024 ay PHP 2,500-6,000 + fire + electrical. Walang specific na halaga para sa taong 2020."
+        "answer": "Sa ibinigay na context, walang eksaktong halaga ng Building Permit fee para sa taong 2020. Ang nakasaad ay ang fee structure noong 2015 (flat PHP 1,800) at ang pagbabago noong 2018 (tiered PHP 2,000-3,500 + PHP 300 fire), pero walang specific na breakdown para sa 2020. Ang mga nakalistang fees ay effective noong 2024-07-01 (future) o 2018-03-01 (para sa Fire Code), pero walang direktang impormasyon kung magkano ang kabuuang Building Permit fee noong 2020.\n\nWala pong nakasaad sa available documents tungkol dito."
       },
       {
         "id": "T3",
         "question": "Kailan nagbago ang Building Permit fee mula flat rate papuntang tiered?",
-        "answer": "Ayon sa nakasaad sa ZETTEL [FEE_STRUCTURE], ang Building Permit fee ay nagbago mula flat rate (PHP 1,800 noong 2015) papuntang tiered noong **2018**, kung saan naging PHP 2,000-3,500 kasama ang PHP 300 na fire code fee."
+        "answer": "Ayon sa nakasaad sa ZETTEL [FEE_STRUCTURE], ang Building Permit fee ay nagbago mula flat rate (PHP 1,800 noong 2015) papuntang tiered system noong **2018**, kung saan naging PHP 2,000-3,500 kasama ang PHP 300 fire code fee."
       },
       {
         "id": "T4",
         "question": "Ang Sanitary Permit fee para sa restaurant noong 2021 — magkano? At ngayon?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa Sanitary Permit fee para sa restaurant noong 2021. Ang nakasaad lamang ay ang kasalukuyang fee para sa **Sanitary Permit - Food Service** na **PHP 300.00**, epektibo noong **2022-06-01**. Walang impormasyon kung magkano ito noong 2021."
+        "answer": "Sa konteksto, walang eksaktong \"Sanitary Permit fee para sa restaurant\" na nakasaad. Ang pinakamalapit ay ang \"Sanitary Permit - Food Service (Current)\" na PHP 300.00, ngunit ito ay effective pa lamang simula 2022-06-01, kaya hindi ito in force noong 2021. Para sa 2021, ang mga nasa ilalim ng \"IN FORCE in 2021\" ay hindi kasama ang \"Food Service\" o \"restaurant\" bilang specific category. Wala pong nakasaad sa available documents tungkol sa eksaktong fee para sa restaurant noong 2021. Para sa ngayon, ang fee na PHP 300.00 para sa \"Food Service\" ay effective simula 2022-06-01, ngunit hindi ito nakalagay bilang \"restaurant\" mismo."
       },
       {
         "id": "S1",
         "question": "hm po bgy clearance pang negosyo",
-        "answer": "Ang fee para sa Barangay Clearance para sa negosyo ay depende kung ito ay bago o renewal:\n\n- **Bago (New Business Permit):** PHP 150.00\n- **Renewal:** PHP 100.00\n\n*(Mula sa nakasaad na fee structure: \"Business Permit new PHP 150, renewal PHP 100\")*"
+        "answer": "Ang fee para sa Barangay Clearance para sa negosyo ay depende kung ito ay bago o renewal:\n\n- **Bago (New Business Permit):** PHP 150.00\n- **Renewal:** PHP 100.00\n\n*(Mula sa context: \"Barangay Clearance - Business Permit (New) — PHP 150.00\" at \"Barangay Clearance - Business Permit (Renewal) — PHP 100.00\")*"
       },
       {
         "id": "S2",
         "question": "magkano bp fee 100 sqm",
-        "answer": "Ang BP fee para sa 100 sqm na residential ay **PHP 2,500.00** base fee ayon sa nakasaad sa context. Kasama rin dito ang Fire Code Fee na PHP 300.00 at Electrical Fee na PHP 250.00, kaya ang kabuuang halaga ay **PHP 3,050.00**."
+        "answer": "Ang base fee para sa BP Residential na 100sqm ay **PHP 2,500.00**. Dagdag pa rito ang BP Fire Code Fee na **PHP 300.00** at BP Electrical Fee na **PHP 250.00**, kaya ang kabuuang halaga ay **PHP 3,050.00**. (Mula sa ZETTEL [FEE_STRUCTURE] at listahan ng fees)."
       },
       {
         "id": "S3",
         "question": "pano kumuha ng mayor's permit",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa eksaktong proseso kung paano kumuha ng mayor's permit. Ang tanging impormasyon mula sa context ay ang serbisyo ay \"Business Permit Application\" na may varying processing time, at ito ay para sa \"Mayor's Permit / Business Permit.\""
+        "answer": "Wala pong nakasaad sa available documents tungkol sa eksaktong proseso kung paano kumuha ng mayor's permit. Ang nakasaad lamang sa context ay ang serbisyo para sa **Business Permit Application** na ang processing ay nag-iiba-iba, at ito ay para sa **Mayor's Permit / Business Permit**. Para sa kumpletong detalye, pinakamabuting dumiretso po kayo sa City Hall ng Naga o tumawag sa kanilang opisina."
       },
       {
         "id": "S4",
         "question": "kelangan ba ng sanitary permit ang karinderya?",
-        "answer": "Oo, kailangan ng sanitary permit ang karinderya. Sa ilalim ng \"Sanitary Permit - Food Service (Current)\" ay may fee na PHP 300.00, epektibo noong 2022-06-01. Ang karinderya ay itinuturing na food service establishment, kaya sakop ito ng permit na ito."
+        "answer": "Oo, kailangan ng sanitary permit ang karinderya. Ayon sa nakasaad sa ating records, ang karinderya ay nasa ilalim ng **Sanitary Permit - Food Service**, na may bayad na **PHP 300.00** at epektibo mula noong **2022-06-01**. Ang sanitary permit ay inisyu ng **City Health Office (CHO)** na matatagpuan sa J. Miranda Avenue, Concepcion Pequeña, Naga City, at ang processing nito ay **2 working days**."
       },
       {
         "id": "S5",
         "question": "saan kukuha ng prangkisa ng trike",
-        "answer": "Ang prangkisa ng trike (Tricycle Franchise o MTOP) ay makukuha sa **CTTMO (City Transportation and Traffic Management Office)** na matatagpuan sa **City Hall Complex, Naga City**. Ang processing time ay **5 working days**. Kailangan mong magsumite ng mga sumusunod na requirements: MTOP Application Form, TODA Membership Certificate, LTO Certificate of Registration, LTO Driver's License, Barangay Clearance - Tricycle, NBI Clearance, Police Clearance, Drug Test Result, Medical Certificate, 2x2 ID Photos, at Franchise Fee Payment Proof. Ang mga fee ay: **PHP 50.00** para sa Barangay Clearance - Tricycle Franchise (effective 2015-07-01) at **PHP 500.00** para sa Tricycle Franchise Fee (effective 2019-12-01)."
+        "answer": "Ang prangkisa ng trike (Tricycle Franchise o MTOP) ay makukuha sa **CTTMO (City Transportation and Traffic Management Office)** na matatagpuan sa **City Hall Complex, Naga City**. Ang processing time ay **5 working days**. Kailangan mo ring kumuha ng **Barangay Clearance - Tricycle** na may bayad na **PHP 50.00** (effective 2015-07-01) at magbayad ng **Tricycle Franchise Fee** na **PHP 500.00** (effective 2019-12-01)."
       },
       {
         "id": "S6",
         "question": "pwede ba tindahan sa tabi ng bahay",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa pagpapatayo ng tindahan sa tabi ng bahay. Ang nakasaad lamang sa konteksto ay para sa R-1 Residential Zone, kung saan pinapayagan ang \"home occupation\" — maaaring ito ay may kaugnayan, ngunit walang eksaktong detalye kung kasama rito ang tindahan."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa pagpapatayo ng tindahan sa tabi ng bahay. Ang nakasaad lamang sa konteksto ay para sa R-1 Residential Zone, na pinapayagan ang \"home occupation\" (negosyo sa loob ng bahay), single-detached dwellings, duplex, at parks. Walang detalye kung pinapayagan ang isang hiwalay na tindahan sa tabi ng bahay."
       },
       {
         "id": "A1",
@@ -359,7 +359,7 @@
       {
         "id": "A2",
         "question": "Ano requirements ng Barangay Tanod appointment?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa requirements ng Barangay Tanod appointment."
+        "answer": "Wala pong nakasaad sa available documents tungkol dito."
       },
       {
         "id": "A3",
@@ -374,7 +374,7 @@
       {
         "id": "G1",
         "question": "Ano LAHAT ng requirements para sa Building Permit?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga **requirements** para sa Building Permit ay:\n\n1. **Zoning Clearance Requirement** – ito ay isang requirement (nakasaad bilang [R]).\n2. **Barangay Clearance - Building Permit** – ito rin ay isang requirement (nakasaad bilang [R]).\n\nWala pong iba pang requirements na nakasaad sa available documents."
+        "answer": "Sa ibinigay na konteksto, ang tanging nabanggit na requirement para sa Building Permit ay ang **Barangay Clearance**, na may halagang **PHP 50.00** (epektibo noong 2015-07-01).  \n\nWala pong nakasaad sa available documents tungkol sa iba pang requirements (tulad ng proof of ownership, site development plan, at iba pa)."
       },
       {
         "id": "G2",
@@ -389,7 +389,7 @@
       {
         "id": "G4",
         "question": "Ano LAHAT ng ordinansa na may kinalaman sa Building Permit fees?",
-        "answer": "Batay sa ibinigay na konteksto, ang ordinansa na may kinalaman sa Building Permit fees ay ang **Ord 2024-112**. Ito ang nagtatakda ng mga residential tiers para sa building permit fees.\n\nWala pong nakasaad sa available documents tungkol sa iba pang ordinansa."
+        "answer": "Batay sa ibinigay na konteksto, ang ordinansa na may kinalaman sa Building Permit fees ay ang **Ord 2024-112**. Ito ang nagtatakda ng kasalukuyang residential tiers at fees para sa Building Permit.\n\nWala pong nakasaad sa available documents tungkol sa iba pang ordinansa bukod dito."
       },
       {
         "id": "H1",
@@ -399,59 +399,59 @@
       {
         "id": "H2",
         "question": "Saan ini-issue ang Tricycle Franchise?",
-        "answer": "Ang Tricycle Franchise (MTOP) ay ini-issue ng **CTTMO (City Transportation and Traffic Management Office)** na matatagpuan sa **City Hall Complex, Naga City**."
+        "answer": "Batay sa ibinigay na konteksto, ang Tricycle Franchise (MTOP) ay ini-issue ng **CTTMO (City Transportation and Traffic Management Office)** na matatagpuan sa **City Hall Complex, Naga City**."
       },
       {
         "id": "H3",
         "question": "Ilang sqm ang maximum para sa sari-sari store na pwede sa R-1 zone?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa maximum square meter para sa sari-sari store sa R-1 zone. Ang nakasaad lamang sa konteksto ay ang \"home occupation\" ay pinapayagan sa R-1 Residential Zone, ngunit walang detalye tungkol sa sukat o limitasyon."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa maximum square meter para sa sari-sari store sa R-1 zone. Ang nakasaad lamang ay ang \"home occupation\" ay pinapayagan sa R-1 Residential Zone, ngunit walang detalye tungkol sa sukat o limitasyon ng lugar para dito."
       },
       {
         "id": "H4",
         "question": "Magkano ang Fire Code Fee sa Building Permit (current)?",
-        "answer": "Ang Fire Code Fee sa Building Permit (current) ay:\n\n- **PHP 300.00** para sa ≤200sqm (Effective: 2018-03-01)\n- **PHP 500.00** para sa >200sqm (Effective: 2018-03-01)\n\nBatay sa nakasaad sa context: \"FEE: BP Fire Code Fee ≤200sqm — PHP 300.00 | Category: Fire Code | Effective: 2018-03-01\" at \"FEE: BP Fire Code Fee >200sqm — PHP 500.00 | Category: Fire Code | Effective: 2018-03-01\"."
+        "answer": "Batay sa ibinigay na konteksto, ang kasalukuyang Fire Code Fee para sa Building Permit ay:\n\n- **Para sa ≤200sqm**: PHP 300.00 (Effective: 2018-03-01)\n- **Para sa >200sqm**: PHP 500.00 (Effective: 2018-03-01, ngunit **Repealed: 2024-07-01**)\n\nDahil ang fee para sa >200sqm ay *repealed* na noong 2024-07-01, ang **kasalukuyang** Fire Code Fee na may bisa ay **PHP 300.00** para sa mga gusaling ≤200sqm. Walang nakasaad na kapalit na fee para sa >200sqm sa konteksto."
       }
     ],
     "Pipeline B": [
       {
         "id": "F1",
         "question": "Magkano ang Building Permit fee para sa residential na 150 sq.m.?",
-        "answer": "Ang Building Permit fee para sa residential na 150 sq.m. ay **PHP 4,550.00**.\n\nIto ay batay sa sumusunod na breakdown mula sa konteksto:\n- Base fee para sa 101-200 sq.m.: **PHP 4,000.00**\n- Fire Code Fee (≤200 sq.m.): **PHP 300.00**\n- Electrical Fee (≤200 sq.m.): **PHP 250.00**\n\nKabuuan: PHP 4,000 + PHP 300 + PHP 250 = **PHP 4,550.00** (ZETTEL [FEE_STRUCTURE], epektibo noong 2024-07-01)."
+        "answer": "Batay sa ibinigay na konteksto, ang Building Permit fee para sa residential na 150 sq.m. ay **PHP 4,550.00**.\n\nIto ay binubuo ng:\n- Base fee (101-200 sq.m.): PHP 4,000.00\n- Fire Code Fee (≤200 sq.m.): PHP 300.00\n- Electrical Fee (≤200 sq.m.): PHP 250.00\n\n**Total: PHP 4,550.00**\n\nSanggunian: ZETTEL [FEE_STRUCTURE] at ang mga nakatalang fees para sa BP Residential 101-200sqm, BP Fire Code Fee ≤200sqm, at BP Electrical Fee ≤200sqm, lahat ay nasa ilalim ng Ordinance No. 2024-112 na epektibo noong 2024-07-01."
       },
       {
         "id": "F2",
         "question": "Magkano ang Barangay Clearance para sa bagong business permit?",
-        "answer": "Ang Barangay Clearance para sa bagong business permit ay **PHP 150.00**. Ito ay ayon sa nakasaad sa fee structure at revenue code ng Naga City, na may effective date noong 2015-07-01 at huling binago ng Ordinance No. 2018-056 (na nagtaas mula PHP 100.00 patungong PHP 150.00 para sa bagong business permit, effective 2018-04-15)."
+        "answer": "Ang Barangay Clearance para sa bagong business permit ay **PHP 150.00**. Ito ay batay sa nakasaad sa ibinigay na konteksto, partikular sa [GRAPH_VERIFIED] at [VECTOR] [naga_revenue_code], na may effective date na 2015-07-01 at huling binago ng Ordinance No. 2018-056."
       },
       {
         "id": "F3",
         "question": "Magkano ang Sanitary Permit fee para sa restaurant?",
-        "answer": "Ang Sanitary Permit fee para sa restaurant ay **PHP 300.00**. Ito ay nakasaad sa Ordinance No. 2022-089 na nag-amyenda sa fee para sa food service establishments mula PHP 200.00 patungong PHP 300.00, epektibo noong 2022-06-01."
+        "answer": "Ang Sanitary Permit fee para sa restaurant ay **PHP 300.00**. Ito ay nakasaad sa Ordinance No. 2022-089 na nag-amyenda sa dating halaga mula PHP 200.00 patungong PHP 300.00, epektibo noong 2022-06-01."
       },
       {
         "id": "F4",
         "question": "Magkano ang franchise fee ng tricycle?",
-        "answer": "Ang franchise fee para sa Motorized Tricycle Operator's Permit (MTOP) ay **PHP 500.00** bawat taon, ayon sa nakasaad sa Section 6 ng franchise guidelines at sa listahan ng requirements."
+        "answer": "Ang annual franchise fee para sa Motorized Tricycle Operator's Permit (MTOP) ay **PHP 500.00**, ayon sa nakasaad sa Section 6 ng franchise guidelines at sa listahan ng fees."
       },
       {
         "id": "F5",
         "question": "Lahat ng fees na nakalista para sa Tricycle Franchise, magkano total?",
-        "answer": "Base sa ibinigay na konteksto, may dalawang fees na nakalista para sa Tricycle Franchise:\n\n1. **Barangay Clearance - Tricycle Franchise** — PHP 50.00 (Effective: 2015-07-01)\n2. **Tricycle Franchise Fee** — PHP 500.00 (Effective: 2019-12-01)\n\n**Kabuuang halaga:** PHP 50.00 + PHP 500.00 = **PHP 550.00**"
+        "answer": "Base sa ibinigay na konteksto, ang mga fees na nakalista para sa Tricycle Franchise ay:\n\n1. **Barangay Clearance - Tricycle Franchise** — PHP 50.00 (Effective: 2015-07-01)  \n2. **Tricycle Franchise Fee** — PHP 500.00 (Effective: 2019-12-01)\n\n**Kabuuang halaga:** PHP 50.00 + PHP 500.00 = **PHP 550.00**"
       },
       {
         "id": "F6",
         "question": "Magkano ang Zoning Clearance fee?",
-        "answer": "Ang Zoning Clearance fee ay **PHP 200.00**, ayon sa nakasaad sa ibinigay na konteksto mula sa CPDO (City Planning and Development Office) at sa zoning ordinance ng Naga City."
+        "answer": "Ang Zoning Clearance fee ay **PHP 200.00**. Ito ay ayon sa nakasaad sa ibinigay na konteksto, partikular sa [GRAPH_VERIFIED] at [VECTOR_SUPPLEMENTAL] na nagsasabing: \"Fee for Zoning/Locational Clearance: PHP 200.00\" at \"Zoning Clearance Fee — PHP 200.00.\" Ang serbisyong ito ay inisyu ng CPDO (City Planning and Development Office) at may processing time na 3 working days."
       },
       {
         "id": "M1",
         "question": "Kung mag-aapply ako ng Building Permit, anong mga clearance ang kailangan ko muna kunin, at magkano lahat?",
-        "answer": "Batay sa ibinigay na konteksto, para mag-apply ng Building Permit, kailangan mo munang kumuha ng mga sumusunod na clearance:\n\n1. **Zoning Clearance** (kinakailangan ng Building Permit Application)\n2. **Barangay Clearance - Building Permit** (kinakailangan din ng Building Permit Application)\n\nTungkol naman sa kabuuang halaga, depende ito sa laki ng iyong residential building:\n\n- **≤100 sqm**: PHP 2,500 (base) + PHP 300 (Fire Code) + PHP 250 (Electrical) = **PHP 3,050 total**\n- **101-200 sqm**: PHP 4,000 (base) + PHP 300 (Fire Code) + PHP 250 (Electrical) = **PHP 4,550 total**\n- **>200 sqm**: PHP 6,000 (base) + PHP 500 (Fire Code) + PHP 400 (Electrical) = **PHP 6,900 total**\n\nWala pong nakasaad sa available documents tungkol sa magkahiwalay na halaga ng Zoning Clearance at Barangay Clearance. Ang mga nabanggit na fees ay para lamang sa Building Permit mismo, Fire Code fee, at Electrical fee."
+        "answer": "Sa ibinigay na konteksto, ang tanging clearance na nabanggit na kailangan para sa Building Permit ay ang **Barangay Clearance**. Ang mga sumusunod ang fees:\n\n- **Barangay Clearance - Business Permit (New):** PHP 150.00  \n- **Barangay Clearance - Business Permit (Renewal):** PHP 100.00  \n\n**Tandaan:** Walang nakasaad kung anong uri ng Barangay Clearance ang kailangan para sa Building Permit (kung new o renewal), kaya hindi matukoy ang eksaktong kabuuang halaga. Kung ang aplikasyon ay para sa bagong building permit, ang fee ay PHP 150.00; kung renewal, PHP 100.00.\n\nWala pong nakasaad sa available documents tungkol sa iba pang clearance (tulad ng locational clearance o zoning clearance) na kailangan bago mag-apply ng Building Permit."
       },
       {
         "id": "M2",
         "question": "Ano requirements ng Tricycle Franchise at saang opisina mag-aapply?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga requirements para sa Tricycle Franchise (MTOP) ay:\n\n1. Duly accomplished MTOP Application Form (available sa CTTMO)\n2. Certificate of TODA Membership\n3. LTO Certificate of Registration\n4. LTO Driver's License (valid Professional Driver's License)\n5. Barangay Clearance (fee: PHP 50.00)\n6. NBI Clearance (valid within last 6 months)\n7. Police Clearance (mula sa Naga City Police Office)\n8. Drug Test Result (mula sa DOH-accredited center, valid for 1 year)\n9. Medical Certificate (mula sa City Health Office)\n10. Two (2) 2x2 ID photos (white background)\n11. Proof of Franchise Fee Payment (PHP 500.00 per year)\n\nAng opisina na nag-iisyu ng MTOP ay ang **City Transportation and Traffic Management Office (CTTMO)** na matatagpuan sa City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City. Ang processing time ay **5 working days**."
+        "answer": "Batay sa ibinigay na konteksto, ang mga requirements para sa Tricycle Franchise (MTOP) ay ang sumusunod:\n\n1. Duly accomplished MTOP Application Form (makukuha sa CTTMO)\n2. Certificate of TODA Membership (mula sa accredited Tricycle Operators and Drivers Association)\n3. LTO Certificate of Registration (Official Receipt at Certificate of Registration ng tricycle unit)\n4. LTO Driver's License (valid Professional Driver's License na may restriction code para sa tricycle)\n5. Barangay Clearance (mula sa Punong Barangay kung saan nakatira ang aplikante, fee: PHP 50.00)\n6. NBI Clearance (valid at hindi lalampas sa 6 na buwan)\n7. Police Clearance (mula sa Naga City Police Office)\n8. Drug Test Result (mula sa DOH-accredited drug testing center, valid for 1 year)\n9. Medical Certificate (mula sa City Health Office)\n10. Dalawang (2) 2x2 ID photos (recent, white background)\n11. Proof of Franchise Fee Payment (PHP 500.00 kada taon)\n\nAng opisina kung saan mag-aapply ay ang **City Transportation and Traffic Management Office (CTTMO)** na matatagpuan sa City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City. Ang processing time ay **5 working days** mula sa pag-submit ng kumpletong aplikasyon."
       },
       {
         "id": "M3",
@@ -461,22 +461,22 @@
       {
         "id": "M4",
         "question": "Anong ordinansa ang nagtakda ng kasalukuyang Building Permit fee, at ano ang pinalitan nito?",
-        "answer": "Ang kasalukuyang Building Permit fee ay itinakda ng **Ordinance No. 2024-112** (Effective: 2024-07-01). Pinalitan nito ang **Ordinance No. 2018-045** (Effective: 2018-03-01), na siya namang nag-amyenda sa naunang Ordinance No. 2015-023."
+        "answer": "Ang kasalukuyang Building Permit fee ay itinakda ng **Ordinance No. 2024-112** (epektibo noong 2024-07-01). Pinalitan nito ang naunang **Ordinance No. 2018-045** (epektibo noong 2018-03-01), na nagtakda ng residential base fee na PHP 2,000.00 para sa hanggang 100 sq.m. at nag-introduce ng tiered pricing."
       },
       {
         "id": "C1",
         "question": "Bakit kailangan ng Zoning Clearance bago mag-Building Permit?",
-        "answer": "Batay sa ibinigay na konteksto, kailangan ng Zoning Clearance bago mag-Building Permit dahil ayon sa **Article VI, Section 28** ng *naga_zoning_ordinance*: \"No Building Permit shall be issued by the Office of the Building Official without a prior Zoning Clearance or Locational Clearance issued by the City Planning and Development Office (CPDO).\"\n\nDagdag pa rito, tinitiyak ng Zoning Clearance na:\n1. Ang iminungkahing istraktura ay naaayon sa itinalagang paggamit ng lupa (land use designation).\n2. Ang paggamit ay pinapayagan o may kundisyong pinapayagan sa nasabing sona.\n3. Natutugunan ang mga kinakailangan sa setback, taas, at floor-area-ratio.\n4. Ang pag-unlad ay naaayon sa Comprehensive Land Use Plan (CLUP).\n\nAng fee para sa Zoning Clearance ay **PHP 200.00**, may processing time na **3 working days**, at ang issuing office ay ang **City Planning and Development Office (CPDO), Rm. 208, City Hall Complex**."
+        "answer": "Batay sa ibinigay na konteksto, kailangan ng Zoning Clearance bago mag-Building Permit dahil ayon sa **Article VI, Section 28** ng zoning ordinance: *\"No Building Permit shall be issued by the Office of the Building Official without a prior Zoning Clearance or Locational Clearance issued by the City Planning and Development Office (CPDO).\"*\n\nAng Zoning Clearance ay nagsisiguro na:\n1. Ang iminungkahing istruktura ay naaayon sa itinalagang gamit ng lupa (land use designation).\n2. Ang gagamiting uri ng negosyo o gusali ay pinapayagan o may kundisyong pinapayagan sa nasabing sona.\n3. Nasusunod ang mga requirements sa setback, taas, at floor-area-ratio.\n4. Ang development ay naaayon sa Comprehensive Land Use Plan (CLUP).\n\nAng fee para sa Zoning Clearance ay **PHP 200.00**, may processing time na **3 working days**, at inisyu ng **City Planning and Development Office (CPDO), Rm. 208, City Hall Complex**."
       },
       {
         "id": "C2",
         "question": "Ano ang purpose ng amendment ng Building Permit fees mula 2015 hanggang 2024?",
-        "answer": "Batay sa ibinigay na konteksto, ang layunin ng amendment ng Building Permit fees mula 2015 hanggang 2024 ay **\"to reflect current construction costs and to separately account for Fire Code and Electrical inspection fees.\"** Ito ay nakasaad sa preamble ng Ordinance No. 2024-112, na nagsasaad na kailangan i-update ang fee schedule dahil sa kasalukuyang gastos sa konstruksyon at para hiwalay na ma-account ang Fire Code at Electrical inspection fees."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa purpose ng amendment ng Building Permit fees mula 2015 hanggang 2024. Ang nakatala lamang ay ang kasaysayan ng pagbabago ng fees: noong 2015 ay flat rate na PHP 1,800, noong 2018 ay naging tiered na PHP 2,000–3,500 kasama ang PHP 300 fire fee, at noong 2024 ay kasalukuyang PHP 2,500–6,000 kasama ang fire at electrical fees. Subalit hindi po binanggit ang dahilan o layunin ng mga pagbabagong ito."
       },
       {
         "id": "C3",
         "question": "Bakit may iba't ibang zone classifications sa Naga City?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa dahilan kung bakit may iba't ibang zone classifications sa Naga City. Ang ibinigay na konteksto ay naglalaman lamang ng mga halimbawa ng permitted at prohibited uses para sa Residential (R-1), Commercial, at Industrial (I-1) zones, pati na rin ang requirement para sa zoning clearance. Walang paliwanag o layunin kung bakit ginawa ang mga klasipikasyong ito."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa dahilan kung bakit may iba't ibang zone classifications sa Naga City. Ang ibinigay na konteksto ay naglalaman lamang ng mga listahan ng permitted at prohibited uses para sa iba't ibang zone (Residential, Commercial, Industrial) at ang requirement para sa zoning clearance, ngunit hindi nito ipinapaliwanag ang rason o layunin ng pagkakaroon ng mga zone classifications na ito."
       },
       {
         "id": "C4",
@@ -486,57 +486,57 @@
       {
         "id": "T1",
         "question": "Magkano ang Building Permit fee noong 2016?",
-        "answer": "Batay sa ibinigay na konteksto, ang Building Permit fee noong 2016 ay **PHP 1,800.00** para sa residential structures na hanggang 100 sq.m.\n\nIto ay ayon sa **Ordinance No. 2015-023**, na nagtakda ng across-the-board rate na PHP 1,800.00 bawat aplikasyon. Ang ordinansang ito ang unang nagpatupad ng fee schedule para sa Building Permit, at ito ang epektibo noong 2016 bago ito amyendahan ng Ordinance No. 2018-045 noong 2018."
+        "answer": "Batay sa ibinigay na konteksto, noong 2016, ang Building Permit fee para sa residential structures ay **flat rate na PHP 1,800.00** bawat aplikasyon para sa mga istrukturang hanggang 100 sq.m. Ito ay ayon sa **Ordinance No. 2015-023**, na siyang unang ipinatupad na fee schedule para sa building permit."
       },
       {
         "id": "T2",
         "question": "Magkano ang Building Permit fee noong 2020?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa eksaktong Building Permit fee para sa taong 2020. Ang alam ko, may binanggit na history ng fees: noong 2015 ay PHP 1,800 flat, noong 2018 ay naging tiered na PHP 2,000-3,500 kasama ang PHP 300 fire fee, at noong 2024 ay PHP 2,500-6,000 kasama ang fire at electrical fees. Pero ang specific na halaga para sa 2020 ay hindi po nakalagay sa ibinigay na context."
+        "answer": "Batay sa ibinigay na konteksto, ang Building Permit fee noong 2020 ay **hindi direktang nakasaad** para sa taong iyon. Gayunpaman, alam natin na:\n\n- Noong 2018, ipinatupad ang **Ordinance No. 2018-045** (effective 2018-03-01) na nagtakda ng residential base fee na **PHP 2,000.00** para sa hanggang 100 sq.m., at may tiered pricing.\n- Ang susunod na amendment ay **Ordinance No. 2024-112** (effective 2024-07-01) na nagtaas ng base fee sa PHP 2,500.00 at nagdagdag ng Fire Code at Electrical fees.\n\nDahil ang 2020 ay nasa pagitan ng 2018 at 2024, ang **posibleng fee noong 2020 ay ang nasa ilalim ng Ordinance No. 2018-045**, pero ang eksaktong halaga para sa iba't ibang floor area (tulad ng 101-200 sq.m. o >200 sq.m.) ay **hindi nakasaad sa ibinigay na konteksto** para sa taong 2020.\n\n**Wala pong nakasaad sa available documents tungkol sa eksaktong Building Permit fee para sa taong 2020.** Ang alam ko ay ang fee structure noong 2018 ay may base na PHP 2,000 para sa ≤100 sq.m., pero ang specifics para sa ibang tiers noong 2020 ay wala sa konteksto."
       },
       {
         "id": "T3",
         "question": "Kailan nagbago ang Building Permit fee mula flat rate papuntang tiered?",
-        "answer": "Batay sa ibinigay na context, ang Building Permit fee ay nagbago mula flat rate papuntang tiered noong **2018-03-01** sa pamamagitan ng **Ordinance No. 2018-045**. Ayon sa [VECTOR] [naga_revenue_code], ang unang flat rate na PHP 1,800.00 (sa ilalim ng Ordinance No. 2015-023) ay pinalitan ng tiered pricing: PHP 2,000.00 para sa ≤100 sq.m. at PHP 3,500.00 para sa 101-200 sq.m., kasama ang PHP 300.00 na Fire Code Fee."
+        "answer": "Batay sa ibinigay na konteksto, ang Building Permit fee ay nagbago mula flat rate papuntang tiered noong **March 1, 2018**, sa pamamagitan ng **Ordinance No. 2018-045**. Bago ito, ang fee ay flat rate na PHP 1,800.00 sa ilalim ng Ordinance No. 2015-023. Simula noong 2018, ipinakilala ang tiered pricing batay sa floor area, na may base fee na PHP 2,000.00 para sa residential structures na hanggang 100 sq.m."
       },
       {
         "id": "T4",
         "question": "Ang Sanitary Permit fee para sa restaurant noong 2021 — magkano? At ngayon?",
-        "answer": "Batay sa ibinigay na konteksto, ang Sanitary Permit fee para sa restaurant (food service establishment) noong 2021 ay **PHP 200.00**. Ito ay ayon sa Ordinance No. 2022-089, na nagsasaad na ang dating fee ay PHP 200.00 bago ito amyendahan.\n\nNgayon, ang kasalukuyang fee ay **PHP 300.00**, epektibo noong 2022-06-01, batay sa parehong ordinansa at sa nakalistang \"Sanitary Permit - Food Service (Current)\" sa konteksto."
+        "answer": "Noong 2021, ang Sanitary Permit fee para sa restaurant ay **PHP 200.00**. Ito ay batay sa Ordinance No. 2022-089, na nagsasaad na ang dating fee ay Dalawang Daang Piso (PHP 200.00) bago ito amyendahan.\n\nNgayon (simula noong June 1, 2022), ang fee ay **PHP 300.00** dahil sa pagtaas na ipinatupad ng Ordinance No. 2022-089."
       },
       {
         "id": "S1",
         "question": "hm po bgy clearance pang negosyo",
-        "answer": "Ang fee para sa Barangay Clearance para sa negosyo (Business Permit) ay:\n\n- **Bago (New):** PHP 150.00\n- **Renewal:** PHP 100.00\n\nIto ay ayon sa nakasaad sa [VECTOR] [naga_revenue_code] at sa [GRAPH_VERIFIED] na context, effective noong 2015-07-01, at huling binago ng Ordinance No. 2018-056 (na nagtaas ng fee para sa new business permit mula PHP 100.00 tungo sa PHP 150.00 simula noong 2018-04-15)."
+        "answer": "Ang fee para sa Barangay Clearance para sa negosyo ay:\n\n- **Bago (New Business Permit):** PHP 150.00\n- **Renewal:** PHP 100.00\n\nIto ay ayon sa nakasaad sa revenue code at fee structure ng Naga City, epektibo noong 2015-07-01, at ang renewal ay hindi naapektuhan ng amendment noong 2018. Ang issuing office ay ang Office of the Punong Barangay sa respective barangay hall."
       },
       {
         "id": "S2",
         "question": "magkano bp fee 100 sqm",
-        "answer": "Batay sa ibinigay na dokumento, ang building permit fee para sa residential na 100 sqm ay **PHP 3,050.00** kabuuan.\n\nNarito ang breakdown:\n- Base Fee: PHP 2,500.00\n- Fire Code Fee: PHP 300.00\n- Electrical Fee: PHP 250.00\n\n**Sanggunian:** ZETTEL [FEE_STRUCTURE] at [VECTOR] [naga_revenue_code] — Residential (R-1) Up to 100 sq.m."
+        "answer": "Ang building permit fee para sa residential na 100 sqm ay **PHP 3,050.00** total. Ito ay binubuo ng:\n\n- Base Fee: PHP 2,500.00\n- Fire Code Fee: PHP 300.00\n- Electrical Fee: PHP 250.00\n\nBase ito sa nakasaad sa [FEE_STRUCTURE] at [naga_revenue_code] mula sa inyong ibinigay na konteksto."
       },
       {
         "id": "S3",
         "question": "pano kumuha ng mayor's permit",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa proseso kung paano kumuha ng Mayor's Permit. Ang impormasyong nasa konteksto ay tungkol lamang sa mga bayarin para sa Barangay Clearance (PHP 150.00 para sa bago, PHP 100.00 para sa renewal) at Sanitary Permit (PHP 300.00 para sa food service establishments simula 2022-06-01). Walang detalye sa requirements, steps, o processing time para sa Mayor's Permit mismo."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa proseso kung paano kumuha ng Mayor's Permit sa Naga City. Ang binigay na impormasyon ay tungkol lamang sa mga fee para sa Barangay Clearance at Sanitary Permit, hindi sa mismong aplikasyon ng Mayor's Permit/Business Permit."
       },
       {
         "id": "S4",
         "question": "kelangan ba ng sanitary permit ang karinderya?",
-        "answer": "Oo, kailangan ng sanitary permit ang karinderya. Ayon sa ibinigay na konteksto, ang karinderya ay kabilang sa \"food service establishments\" at ang fee para sa Sanitary Permit - Food Service ay **PHP 300.00**, epektibo noong 2022-06-01, batay sa Ordinance No. 2022-089 na nag-amyenda sa dating halaga mula PHP 200.00."
+        "answer": "Oo, kailangan ng sanitary permit ang karinderya. Ayon sa ibinigay na konteksto, ang karinderya ay kabilang sa \"food service establishments\" at ang fee para sa Sanitary Permit - Food Service ay **PHP 300.00**, epektibo noong 2022-06-01, base sa Ordinance No. 2022-089 na nag-amyenda sa dating PHP 200.00. Ang processing time ay 2 working days mula sa pagsusumite ng kumpletong requirements, at ito ay inisyu ng City Health Office (CHO) sa J. Miranda Avenue, Concepcion Pequeña, Naga City."
       },
       {
         "id": "S5",
         "question": "saan kukuha ng prangkisa ng trike",
-        "answer": "Batay sa ibinigay na dokumento, ang aplikasyon para sa Motorized Tricycle Operator's Permit (MTOP) ay maaaring makuha sa **City Transportation and Traffic Management Office (CTTMO)** ng Naga City. Ang MTOP application form ay available doon.\n\nTungkol naman sa **franchise fee**, nakasaad sa Section 5 na ang proof of payment ay **PHP 500.00 per year**.\n\nKung ang tinutukoy mo ay ang mismong prangkisa (MTOP), ang proseso ay nagsisimula sa CTTMO."
+        "answer": "Batay sa ibinigay na dokumento (City Ordinance No. 2019-072), ang aplikasyon para sa Motorized Tricycle Operator's Permit (MTOP) o prangkisa ng tricycle ay dapat iproseso sa **City Transportation and Traffic Management Office (CTTMO)** dahil doon kukuha ng application form.\n\nAng eksaktong nakasaad ay: *\"Duly accomplished MTOP Application Form — available at the City Transportation and Traffic Management Office (CTTMO)\"*.\n\nWala pong nakasaad sa available documents tungkol sa iba pang detalye ng eksaktong lokasyon o opisina kung saan isusumite ang kompleto na requirements."
       },
       {
         "id": "S6",
         "question": "pwede ba tindahan sa tabi ng bahay",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa pagpapatayo ng tindahan sa tabi ng bahay. Ang nakasaad lamang sa Zoning ay para sa **R-1 Residential Zone**, na nagpapahintulot ng *home occupation* (negosyo sa loob ng bahay), pero walang detalye kung pinapayagan ang hiwalay na tindahan sa tabi ng bahay. Para sa karagdagang impormasyon, makipag-ugnayan po sa City Planning and Development Office ng Naga City."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa pagpapatayo ng tindahan sa tabi ng bahay. Ang Zoning code ay nagsasaad na sa R-1 Residential Zone, pinapayagan ang \"home occupation\" (negosyo sa loob ng bahay), pero walang detalye kung ano ang saklaw nito o kung kailangan ng espesyal na permiso. Para sa karagdagang impormasyon, makipag-ugnayan sa City Planning and Development Office (CPDO) ng Naga City."
       },
       {
         "id": "A1",
         "question": "May tax break ba ang senior citizen na may negosyo sa Naga City?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa tax break para sa senior citizen na may negosyo sa Naga City. Ang ibinigay na konteksto ay tungkol lamang sa Building Permit Fees at Business Permit Fees (mula sa City Health Office), at walang nabanggit na anumang diskwento o exemption para sa senior citizens."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa tax break para sa senior citizen na may negosyo sa Naga City. Ang ibinigay na konteksto ay tungkol lamang sa Building Permit Fees at mga business permit fees mula sa City Health Office, at walang binabanggit na anumang diskwento o exemption para sa senior citizens."
       },
       {
         "id": "A2",
@@ -546,52 +546,52 @@
       {
         "id": "A3",
         "question": "Magkano ang permit para sa motorized boat sa Naga River?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa permit para sa motorized boat sa Naga River. Ang ibinigay na konteksto ay para lamang sa Motorized Tricycle Operator's Permit (MTOP) at mga regulasyon nito."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa permit para sa motorized boat sa Naga River. Ang impormasyon sa konteksto ay tungkol lamang sa Motorized Tricycle Operator's Permit (MTOP) at mga kaugnay na regulasyon para sa tricycle franchise."
       },
       {
         "id": "A4",
         "question": "Saan magbabayad ng amilyar sa Naga City?",
-        "answer": "Wala pong nakasaad sa available documents tungkol sa pagbabayad ng amilyar sa Naga City. Ang mga dokumentong ibinigay ay tungkol lamang sa Building Permit Fees (Ordinance No. 2015-023) at Comprehensive Zoning Ordinance (Ordinance No. 2016-031), pati na rin ang listahan ng fees para sa iba’t ibang establisyemento mula sa City Health Office. Walang impormasyon tungkol sa amilyar (real property tax) o kung saan ito babayaran."
+        "answer": "Wala pong nakasaad sa available documents tungkol sa pagbabayad ng amilyar (real property tax) sa Naga City. Ang ibinigay na konteksto ay tungkol lamang sa Building Permit Fees (Ordinance No. 2015-023) at Zoning Ordinance (Ordinance No. 2016-031), pati na rin ang listahan ng fees para sa iba’t ibang establisyemento mula sa City Health Office. Walang impormasyon tungkol sa amilyar o kung saan ito babayaran."
       },
       {
         "id": "G1",
         "question": "Ano LAHAT ng requirements para sa Building Permit?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga sumusunod ang mga requirements para sa Building Permit:\n\n1. **Zoning Clearance Requirement** (kinakailangan)\n2. **Barangay Clearance - Building Permit** (kinakailangan)\n\nIto ay nakasaad sa ilalim ng \"REQUIRES\" section ng konteksto.\n\nPara sa iba pang requirements (tulad ng kumpletong listahan ng dokumento), **wala pong nakasaad sa available documents tungkol dito.**"
+        "answer": "Wala pong nakasaad sa available documents tungkol sa kumpletong listahan ng requirements para sa Building Permit. Ang nabanggit lamang sa context ay ang mga fees at ang processing time na \"varies by complexity,\" at ang opisina na nag-iisyu nito ay ang **CTMO / Office of the Building Official (Building Official)** sa City Hall Complex, Naga City. Para sa eksaktong requirements, makipag-ugnayan po mismo sa nasabing opisina."
       },
       {
         "id": "G2",
         "question": "Ano ang mga zone classifications na nakalista sa zoning documents?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga zone classifications na nakalista ay:\n\n1. **Residential Zones (R-1)** – nakasaad sa Section 8 ng Ordinance No. 2016-031.\n2. **Commercial Zones (C-2)** – nabanggit sa Section 9 ng parehong ordinansa.\n\nWala pong nakasaad sa available documents tungkol sa iba pang zone classifications (tulad ng industrial, agricultural, o mixed-use). Ang nakita lamang ay ang R-1 at C-2."
+        "answer": "Batay sa ibinigay na konteksto, ang mga zone classifications na nakalista ay:\n\n1. **Residential Zones (R-1)** – nakasaad sa **Section 8** ng Ordinance No. 2016-031.\n2. **Commercial Zones (C-2)** – binanggit sa **Section 9**, ngunit walang detalyadong nilalaman na ibinigay sa konteksto.\n\nWala pong nakasaad sa available documents tungkol sa iba pang zone classifications (tulad ng industrial, agricultural, o mixed-use)."
       },
       {
         "id": "G3",
         "question": "Ano LAHAT ng penalties ng Tricycle Franchise violations?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga penalties para sa Tricycle Franchise violations ay ang sumusunod:\n\nPara sa **operating without a valid MTOP**:\n- **First Offense**: Fine na PHP 1,000.00 at impoundment ng unit sa loob ng 3 araw.\n- **Second Offense**: Fine na PHP 2,500.00 at impoundment ng unit sa loob ng 7 araw.\n- **Third Offense**: Fine na PHP 5,000.00 at revocation ng franchise eligibility sa loob ng 1 taon.\n\nWala pong nakasaad sa available documents tungkol sa iba pang violations o penalties bukod dito."
+        "answer": "Batay sa ibinigay na konteksto, ang mga penalties para sa Tricycle Franchise violations ay ang sumusunod:\n\nPara sa **Operating Without Valid MTOP**:\n- **First Offense**: Fine na PHP 1,000.00 at impoundment ng unit sa loob ng 3 araw.\n- **Second Offense**: Fine na PHP 2,500.00 at impoundment ng unit sa loob ng 7 araw.\n- **Third Offense**: Fine na PHP 5,000.00 at revocation ng franchise eligibility sa loob ng 1 taon.\n\nWala pong nakasaad sa available documents tungkol sa iba pang violations o penalties bukod dito."
       },
       {
         "id": "G4",
         "question": "Ano LAHAT ng ordinansa na may kinalaman sa Building Permit fees?",
-        "answer": "Batay sa ibinigay na konteksto, ang mga ordinansa na may kinalaman sa Building Permit fees ay:\n\n1. **Ordinance No. 2015-023** – Ito ang unang nagpatupad ng Building Permit fee schedule na may across-the-board rate na PHP 1,800.00 para sa residential structures hanggang 100 sq.m.\n\n2. **Ordinance No. 2018-045** (Effective: 2018-03-01) – Nag-amyenda sa naunang ordinansa. Itinaas ang residential base fee sa PHP 2,000.00 para sa hanggang 100 sq.m at nag-introduce ng tiered pricing batay sa floor area.\n\n3. **Ordinance No. 2024-112** (Effective: 2024-07-01) – Kasalukuyang schedule. Itinaas ang residential base fee sa PHP 2,500.00 para sa hanggang 100 sq.m. Nagdagdag ng Fire Code Fee at Electrical Fee line items, at pinalawak sa commercial at industrial categories na may hiwalay na rate tables.\n\nAng mga ito ang nakasaad sa konteksto bilang mga ordinansang may kinalaman sa Building Permit fees."
+        "answer": "Batay sa ibinigay na konteksto, ang mga ordinansa na may kinalaman sa Building Permit fees ay:\n\n1. **Ordinance No. 2015-023** – Ito ang unang nagtakda ng building permit fee na PHP 1,800.00 para sa residential structures hanggang 100 sq.m.\n2. **Ordinance No. 2018-045** (Effective: 2018-03-01) – Nag-amyenda sa naunang ordinansa, itinaas ang base fee sa PHP 2,000.00 para sa ≤100 sq.m at nag-introduce ng tiered pricing.\n3. **Ordinance No. 2024-112** (Effective: 2024-07-01) – Kasalukuyang schedule; itinaas ang base fee sa PHP 2,500.00 para sa ≤100 sq.m, at nagdagdag ng Fire Code Fee at Electrical Fee line items.\n\nAng mga ito ang tanging ordinansa na direktang binanggit sa konteksto na may kinalaman sa Building Permit fees."
       },
       {
         "id": "H1",
         "question": "Ano ang processing time ng Tricycle Franchise?",
-        "answer": "Batay sa ibinigay na konteksto, ang processing time para sa Tricycle Franchise (MTOP) ay **5 working days** mula sa petsa ng pag-submit ng kumpletong aplikasyon."
+        "answer": "Batay sa ibinigay na konteksto, ang processing time ng Tricycle Franchise (MTOP) ay **5 working days** mula sa petsa ng pag-submit ng kumpletong aplikasyon. Ito ay nakasaad sa SERVICE section: \"Tricycle Franchise (MTOP) | Processing: 5 working days\" at kinumpirma rin sa Section 8 ng City Ordinance No. 2019-072: \"Complete applications shall be processed within five (5) working days from date of submission.\""
       },
       {
         "id": "H2",
         "question": "Saan ini-issue ang Tricycle Franchise?",
-        "answer": "Batay sa ibinigay na konteksto, ang Motorized Tricycle Operator's Permit (MTOP) ay ini-issue ng **City Transportation and Traffic Management Office (CTTMO)**, sa koordinasyon ng **Naga City Cooperatives Development Office (NCCDO)**. Ang CTTMO ay matatagpuan sa City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City, at maaaring tawagan sa (054) 205-2980 local 1045."
+        "answer": "Ang Motorized Tricycle Operator's Permit (MTOP) ay ini-issue ng **City Transportation and Traffic Management Office (CTTMO)**, sa koordinasyon ng **Naga City Cooperatives Development Office (NCCDO)**. Ang CTTMO ay matatagpuan sa City Hall Complex, J. Miranda Avenue, Concepcion Pequeña, Naga City, at maaaring tawagan sa (054) 205-2980 local 1045. (Source: Section 9, City Ordinance No. 2019-072)"
       },
       {
         "id": "H3",
         "question": "Ilang sqm ang maximum para sa sari-sari store na pwede sa R-1 zone?",
-        "answer": "Ayon sa ibinigay na konteksto, ang maximum floor area para sa sari-sari store na pinapayagan sa R-1 zone ay **15 sq.m.** (Section 8.3, Conditional Uses)."
+        "answer": "Batay sa nakasaad sa **Section 8.3** ng Comprehensive Zoning Ordinance ng Naga City, ang maximum floor area para sa isang sari-sari store na pinapayagan sa R-1 zone ay **15 sq.m.**"
       },
       {
         "id": "H4",
         "question": "Magkano ang Fire Code Fee sa Building Permit (current)?",
-        "answer": "Ang kasalukuyang Fire Code Fee para sa Building Permit ay **PHP 300.00** para sa residential na may floor area na **≤200sqm**, at **PHP 500.00** para sa **>200sqm**, ayon sa nakasaad sa context (FEE: BP Fire Code Fee ≤200sqm — PHP 300.00 | Effective: 2018-03-01 at FEE: BP Fire Code Fee >200sqm — PHP 500.00 | Effective: 2018-03-01)."
+        "answer": "Batay sa ibinigay na context, ang kasalukuyang Fire Code Fee para sa Building Permit ay:\n\n- **≤200 sq.m:** PHP 300.00 (Effective: 2018-03-01)\n- **>200 sq.m:** PHP 500.00 (Effective: 2018-03-01, ngunit may markang \"Repealed: 2024-07-01\")\n\nGayunpaman, ayon sa **ZETTEL [FEE_STRUCTURE]** na may petsang 2024-07-01, ang kabuuang breakdown para sa residential building permit ay:\n- ≤100 sq.m: PHP 2,500 base + PHP 300 fire + PHP 250 electrical = PHP 3,050 total\n- 101-200 sq.m: PHP 4,000 + PHP 300 + PHP 250 = PHP 4,550\n- >200 sq.m: PHP 6,000 + PHP 500 + PHP 400 = PHP 6,900\n\nKaya ang **kasalukuyang Fire Code Fee** (simula Hulyo 1, 2024) ay:\n- **PHP 300.00** para sa floor area na **≤200 sq.m**\n- **PHP 500.00** para sa floor area na **>200 sq.m**"
       }
     ]
   }

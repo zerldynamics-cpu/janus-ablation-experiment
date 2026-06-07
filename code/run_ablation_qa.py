@@ -91,7 +91,18 @@ ZETTEL_TYPE_PRIORITY = {
     "PROCUREMENT_RESULT": 8,
 }
 
-def graph_retrieve(matched_entities, intent):
+def extract_target_year(query):
+    """Extract a target year from query for temporal scoping. Returns None if no year found."""
+    ql = query.lower()
+    # Match "noong 2016", "noong 2020", "2016", etc.
+    m = re.search(r'(?:noong|nung|taong|year\s+)?(\d{4})', ql)
+    if m:
+        year = int(m.group(1))
+        if 2000 <= year <= 2030:
+            return year
+    return None
+
+def graph_retrieve(matched_entities, intent, target_year=None):
     """KuzuDB graph traversal only. CONTAINS + typed MATCH + Zettel filter."""
     results = []
     is_fee = intent.get("is_fee", False)
@@ -108,19 +119,49 @@ def graph_retrieve(matched_entities, intent):
         except: pass
         
         # REQUIRES chain
+        collected_req_names = set()
         try:
             r = conn.execute(f"MATCH (s:Service)-[:REQUIRES]->(req) WHERE s.name CONTAINS {eq} RETURN s.name, req.name, labels(req) LIMIT 25")
             while r.has_next():
                 row = r.get_next()
-                results.append(("REQUIRES", 7, f"REQUIRES: {row[0]} -> [{row[2][0]}] {row[1]}"))
+                req_name = row[1]
+                collected_req_names.add(req_name)
+                results.append(("REQUIRES", 7, f"REQUIRES: {row[0]} -> [{row[2][0]}] {req_name}"))
         except: pass
+        
+        # P1 FIX: Cross-entity fee aggregation — after REQUIRES, fetch fees for prerequisite clearances
+        for req_name in collected_req_names:
+            # Try to match requirement to a service by name overlap (e.g. "Zoning Clearance Requirement" → "Zoning Clearance")
+            req_short = req_name.replace(" Requirement", "").replace(" - Building Permit", "").replace(" - Tricycle", "")
+            try:
+                r = conn.execute(f"MATCH (s:Service)-[:SETS_FEE]->(f:Fee) WHERE s.name CONTAINS {q(req_short)} RETURN s.name, f.name, f.amount, f.category, f.effective_date LIMIT 10")
+                while r.has_next():
+                    row = r.get_next()
+                    results.append(("REQ_FEE", 8, f"REQ_FEE: {row[0]} fee — {row[1]}: PHP {row[2]:,.2f} | {row[3]} | Effective: {row[4]}"))
+            except: pass
         
         # Fee lookup via SETS_FEE
         try:
-            r = conn.execute(f"MATCH (s:Service)-[:SETS_FEE]->(f:Fee) WHERE s.name CONTAINS {eq} RETURN f.name, f.amount, f.category, f.effective_date LIMIT 20")
+            r = conn.execute(f"MATCH (s:Service)-[:SETS_FEE]->(f:Fee) WHERE s.name CONTAINS {eq} RETURN f.name, f.amount, f.category, f.effective_date, f.repeal_date LIMIT 20")
             while r.has_next():
                 row = r.get_next()
-                results.append(("FEE", 9 if is_fee else 5, f"FEE: {row[0]} — PHP {row[1]:,.2f} | Category: {row[2]} | Effective: {row[3]}"))
+                eff_date = row[3] or ""
+                rep_date = row[4] or ""
+                # Temporal annotation (P0 fix: interval containment)
+                temporal_tag = ""
+                if target_year and eff_date:
+                    try:
+                        eff_year = int(eff_date[:4])
+                        rep_year = int(rep_date[:4]) if rep_date else 9999
+                        if target_year < eff_year:
+                            temporal_tag = f" [FUTURE — effective {eff_date}, not yet in force in {target_year}]"
+                        elif rep_date and target_year >= rep_year:
+                            temporal_tag = f" [SUPERSEDED — repealed {rep_date}, not in force in {target_year}]"
+                        else:
+                            temporal_tag = f" [IN FORCE in {target_year} — effective {eff_date}{' to ' + rep_date if rep_date else ' to present'}]"
+                    except:
+                        pass
+                results.append(("FEE", 9 if is_fee else 5, f"FEE: {row[0]} — PHP {row[1]:,.2f} | Category: {row[2]} | Effective: {eff_date}{(' | Repealed: ' + rep_date) if rep_date else ''}{temporal_tag}"))
         except: pass
         
         # Zettels with type filter
@@ -267,6 +308,7 @@ for pipeline in PIPELINES:
         t0 = time.time()
         al = synonym_align(question)
         it = classify(al["aligned"])
+        target_year = extract_target_year(question)
         
         ctx_parts = []
         g_count = 0
@@ -281,7 +323,7 @@ for pipeline in PIPELINES:
         
         elif pipeline == "graph_only":
             # Graph only — KuzuDB CONTAINS + typed MATCH
-            gres = graph_retrieve(al["matched"], it)
+            gres = graph_retrieve(al["matched"], it, target_year=target_year)
             if gres:
                 ctx_parts.append("[GRAPH_ONLY]\n" + "\n".join(gres[:15]))
                 g_count = len(gres)
@@ -289,7 +331,7 @@ for pipeline in PIPELINES:
         elif pipeline == "janus_v4":
             # Janus V4 — graph-first, vector supplement
             if it["structural"] >= 0.3:
-                gres = graph_retrieve(al["matched"], it)
+                gres = graph_retrieve(al["matched"], it, target_year=target_year)
                 if gres:
                     ctx_parts.append("[GRAPH_VERIFIED]\n" + "\n".join(gres[:12]))
                     g_count = len(gres)
